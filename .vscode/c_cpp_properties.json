@@ -1,0 +1,19 @@
+{
+    "configurations": [
+        {
+            "name": "gcc",
+            "includePath": [
+                "${workspaceFolder}/libopencm3/include/**",
+                "${workspaceFolder}/FreeRTOS/FreeRTOS-Kernel/include",
+                "${workspaceFolder}/FreeRTOS/ports/stm32g0"
+            ],
+            "defines": [
+                "STM32F3"
+            ],
+            "cStandard": "c11",
+            "cppStandard": "c++11",
+            "intelliSenseMode": "gcc-x86"
+        }
+    ],
+    "version": 4
+}

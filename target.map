@@ -1,0 +1,2436 @@
+Archive member included to satisfy reference by file (symbol)
+
+./libopencm3/lib/libopencm3_stm32g0.a(gpio_common_all.o)
+                              ./src/main.o (gpio_toggle)
+./libopencm3/lib/libopencm3_stm32g0.a(gpio_common_f0234.o)
+                              ./src/main.o (gpio_mode_setup)
+./libopencm3/lib/libopencm3_stm32g0.a(rcc.o)
+                              ./src/main.o (rcc_clock_setup)
+./libopencm3/lib/libopencm3_stm32g0.a(rcc_common_all.o)
+                              ./src/main.o (rcc_periph_clock_enable)
+./libopencm3/lib/libopencm3_stm32g0.a(vector.o)
+                              (reset_handler)
+./libopencm3/lib/libopencm3_stm32g0.a(assert.o)
+                              ./libopencm3/lib/libopencm3_stm32g0.a(rcc.o) (cm3_assert_failed)
+./libopencm3/lib/libopencm3_stm32g0.a(flash_common_all.o)
+                              ./libopencm3/lib/libopencm3_stm32g0.a(rcc.o) (flash_prefetch_enable)
+./libopencm3/lib/libopencm3_stm32g0.a(pwr.o)
+                              ./libopencm3/lib/libopencm3_stm32g0.a(rcc.o) (pwr_set_vos_scale)
+/usr/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(libc_a-memset.o)
+                              ./FreeRTOS/FreeRTOS-Kernel/stream_buffer.o (memset)
+/usr/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(libc_a-memcpy-stub.o)
+                              ./FreeRTOS/FreeRTOS-Kernel/queue.o (memcpy)
+/usr/lib/gcc/arm-none-eabi/13.2.0/thumb/v6-m/nofp/libgcc.a(_thumb1_case_uqi.o)
+                              ./libopencm3/lib/libopencm3_stm32g0.a(rcc.o) (__gnu_thumb1_case_uqi)
+
+Discarded input sections
+
+ .group         0x00000000        0xc ./src/main.o
+ .group         0x00000000        0xc ./src/main.o
+ .group         0x00000000        0xc ./src/main.o
+ .group         0x00000000        0xc ./src/main.o
+ .group         0x00000000        0xc ./src/main.o
+ .group         0x00000000        0xc ./src/main.o
+ .group         0x00000000        0xc ./src/main.o
+ .group         0x00000000        0xc ./src/main.o
+ .group         0x00000000        0xc ./src/main.o
+ .group         0x00000000        0xc ./src/main.o
+ .group         0x00000000        0xc ./src/main.o
+ .group         0x00000000        0xc ./src/main.o
+ .group         0x00000000        0xc ./src/main.o
+ .group         0x00000000        0xc ./src/main.o
+ .group         0x00000000        0xc ./src/main.o
+ .group         0x00000000        0xc ./src/main.o
+ .group         0x00000000        0xc ./src/main.o
+ .group         0x00000000        0xc ./src/main.o
+ .group         0x00000000        0xc ./src/main.o
+ .group         0x00000000        0xc ./src/main.o
+ .group         0x00000000        0xc ./src/main.o
+ .group         0x00000000        0xc ./src/main.o
+ .group         0x00000000        0xc ./src/main.o
+ .group         0x00000000        0xc ./src/main.o
+ .group         0x00000000        0xc ./src/main.o
+ .group         0x00000000        0xc ./src/main.o
+ .group         0x00000000        0xc ./src/main.o
+ .group         0x00000000        0xc ./src/main.o
+ .text          0x00000000        0x0 ./src/main.o
+ .data          0x00000000        0x0 ./src/main.o
+ .bss           0x00000000        0x0 ./src/main.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/croutine.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/croutine.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/croutine.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/croutine.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/croutine.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/croutine.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/croutine.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/croutine.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/croutine.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/croutine.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/croutine.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/croutine.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/croutine.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/croutine.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/croutine.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/croutine.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/croutine.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/croutine.o
+ .text          0x00000000        0x0 ./FreeRTOS/FreeRTOS-Kernel/croutine.o
+ .data          0x00000000        0x0 ./FreeRTOS/FreeRTOS-Kernel/croutine.o
+ .bss           0x00000000        0x0 ./FreeRTOS/FreeRTOS-Kernel/croutine.o
+ .debug_info    0x00000000       0x70 ./FreeRTOS/FreeRTOS-Kernel/croutine.o
+ .debug_abbrev  0x00000000       0x28 ./FreeRTOS/FreeRTOS-Kernel/croutine.o
+ .debug_aranges
+                0x00000000       0x18 ./FreeRTOS/FreeRTOS-Kernel/croutine.o
+ .debug_macro   0x00000000       0xe2 ./FreeRTOS/FreeRTOS-Kernel/croutine.o
+ .debug_macro   0x00000000      0xaa8 ./FreeRTOS/FreeRTOS-Kernel/croutine.o
+ .debug_macro   0x00000000      0x189 ./FreeRTOS/FreeRTOS-Kernel/croutine.o
+ .debug_macro   0x00000000       0x22 ./FreeRTOS/FreeRTOS-Kernel/croutine.o
+ .debug_macro   0x00000000       0x56 ./FreeRTOS/FreeRTOS-Kernel/croutine.o
+ .debug_macro   0x00000000       0x51 ./FreeRTOS/FreeRTOS-Kernel/croutine.o
+ .debug_macro   0x00000000      0x103 ./FreeRTOS/FreeRTOS-Kernel/croutine.o
+ .debug_macro   0x00000000       0x6a ./FreeRTOS/FreeRTOS-Kernel/croutine.o
+ .debug_macro   0x00000000      0x1df ./FreeRTOS/FreeRTOS-Kernel/croutine.o
+ .debug_macro   0x00000000      0x148 ./FreeRTOS/FreeRTOS-Kernel/croutine.o
+ .debug_macro   0x00000000      0x15a ./FreeRTOS/FreeRTOS-Kernel/croutine.o
+ .debug_macro   0x00000000       0xb8 ./FreeRTOS/FreeRTOS-Kernel/croutine.o
+ .debug_macro   0x00000000       0x28 ./FreeRTOS/FreeRTOS-Kernel/croutine.o
+ .debug_macro   0x00000000       0x1f ./FreeRTOS/FreeRTOS-Kernel/croutine.o
+ .debug_macro   0x00000000       0x12 ./FreeRTOS/FreeRTOS-Kernel/croutine.o
+ .debug_macro   0x00000000      0x4fc ./FreeRTOS/FreeRTOS-Kernel/croutine.o
+ .debug_macro   0x00000000       0xc3 ./FreeRTOS/FreeRTOS-Kernel/croutine.o
+ .debug_macro   0x00000000      0x120 ./FreeRTOS/FreeRTOS-Kernel/croutine.o
+ .debug_macro   0x00000000       0x49 ./FreeRTOS/FreeRTOS-Kernel/croutine.o
+ .debug_line    0x00000000      0x26c ./FreeRTOS/FreeRTOS-Kernel/croutine.o
+ .debug_str     0x00000000     0x92a0 ./FreeRTOS/FreeRTOS-Kernel/croutine.o
+ .comment       0x00000000       0x1f ./FreeRTOS/FreeRTOS-Kernel/croutine.o
+ .ARM.attributes
+                0x00000000       0x2c ./FreeRTOS/FreeRTOS-Kernel/croutine.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/event_groups.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/event_groups.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/event_groups.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/event_groups.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/event_groups.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/event_groups.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/event_groups.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/event_groups.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/event_groups.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/event_groups.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/event_groups.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/event_groups.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/event_groups.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/event_groups.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/event_groups.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/event_groups.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/event_groups.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/event_groups.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/event_groups.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/event_groups.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/event_groups.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/event_groups.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/event_groups.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/event_groups.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/event_groups.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/event_groups.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/event_groups.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/event_groups.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/event_groups.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/event_groups.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/event_groups.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/event_groups.o
+ .text          0x00000000        0x0 ./FreeRTOS/FreeRTOS-Kernel/event_groups.o
+ .data          0x00000000        0x0 ./FreeRTOS/FreeRTOS-Kernel/event_groups.o
+ .bss           0x00000000        0x0 ./FreeRTOS/FreeRTOS-Kernel/event_groups.o
+ .text.prvTestWaitCondition
+                0x00000000       0x1e ./FreeRTOS/FreeRTOS-Kernel/event_groups.o
+ .text.xEventGroupCreate
+                0x00000000       0x18 ./FreeRTOS/FreeRTOS-Kernel/event_groups.o
+ .text.xEventGroupWaitBits
+                0x00000000       0xb4 ./FreeRTOS/FreeRTOS-Kernel/event_groups.o
+ .text.xEventGroupClearBits
+                0x00000000       0x1a ./FreeRTOS/FreeRTOS-Kernel/event_groups.o
+ .text.xEventGroupGetBitsFromISR
+                0x00000000       0x12 ./FreeRTOS/FreeRTOS-Kernel/event_groups.o
+ .text.xEventGroupSetBits
+                0x00000000       0x5e ./FreeRTOS/FreeRTOS-Kernel/event_groups.o
+ .text.xEventGroupSync
+                0x00000000       0x92 ./FreeRTOS/FreeRTOS-Kernel/event_groups.o
+ .text.vEventGroupDelete
+                0x00000000       0x26 ./FreeRTOS/FreeRTOS-Kernel/event_groups.o
+ .text.vEventGroupSetBitsCallback
+                0x00000000        0x8 ./FreeRTOS/FreeRTOS-Kernel/event_groups.o
+ .text.vEventGroupClearBitsCallback
+                0x00000000        0x8 ./FreeRTOS/FreeRTOS-Kernel/event_groups.o
+ .text.uxEventGroupGetNumber
+                0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/event_groups.o
+ .text.vEventGroupSetNumber
+                0x00000000        0x4 ./FreeRTOS/FreeRTOS-Kernel/event_groups.o
+ .debug_info    0x00000000      0xa82 ./FreeRTOS/FreeRTOS-Kernel/event_groups.o
+ .debug_abbrev  0x00000000      0x23b ./FreeRTOS/FreeRTOS-Kernel/event_groups.o
+ .debug_loclists
+                0x00000000      0x7df ./FreeRTOS/FreeRTOS-Kernel/event_groups.o
+ .debug_aranges
+                0x00000000       0x78 ./FreeRTOS/FreeRTOS-Kernel/event_groups.o
+ .debug_rnglists
+                0x00000000       0x63 ./FreeRTOS/FreeRTOS-Kernel/event_groups.o
+ .debug_macro   0x00000000      0x1d3 ./FreeRTOS/FreeRTOS-Kernel/event_groups.o
+ .debug_macro   0x00000000      0xaa8 ./FreeRTOS/FreeRTOS-Kernel/event_groups.o
+ .debug_macro   0x00000000       0x24 ./FreeRTOS/FreeRTOS-Kernel/event_groups.o
+ .debug_macro   0x00000000       0x22 ./FreeRTOS/FreeRTOS-Kernel/event_groups.o
+ .debug_macro   0x00000000       0x6e ./FreeRTOS/FreeRTOS-Kernel/event_groups.o
+ .debug_macro   0x00000000       0x5c ./FreeRTOS/FreeRTOS-Kernel/event_groups.o
+ .debug_macro   0x00000000       0x3c ./FreeRTOS/FreeRTOS-Kernel/event_groups.o
+ .debug_macro   0x00000000       0x34 ./FreeRTOS/FreeRTOS-Kernel/event_groups.o
+ .debug_macro   0x00000000       0x16 ./FreeRTOS/FreeRTOS-Kernel/event_groups.o
+ .debug_macro   0x00000000      0x11c ./FreeRTOS/FreeRTOS-Kernel/event_groups.o
+ .debug_macro   0x00000000       0x94 ./FreeRTOS/FreeRTOS-Kernel/event_groups.o
+ .debug_macro   0x00000000       0x16 ./FreeRTOS/FreeRTOS-Kernel/event_groups.o
+ .debug_macro   0x00000000       0x4a ./FreeRTOS/FreeRTOS-Kernel/event_groups.o
+ .debug_macro   0x00000000       0x57 ./FreeRTOS/FreeRTOS-Kernel/event_groups.o
+ .debug_macro   0x00000000       0x34 ./FreeRTOS/FreeRTOS-Kernel/event_groups.o
+ .debug_macro   0x00000000       0x10 ./FreeRTOS/FreeRTOS-Kernel/event_groups.o
+ .debug_macro   0x00000000       0x58 ./FreeRTOS/FreeRTOS-Kernel/event_groups.o
+ .debug_macro   0x00000000      0x1de ./FreeRTOS/FreeRTOS-Kernel/event_groups.o
+ .debug_macro   0x00000000      0x385 ./FreeRTOS/FreeRTOS-Kernel/event_groups.o
+ .debug_macro   0x00000000       0x22 ./FreeRTOS/FreeRTOS-Kernel/event_groups.o
+ .debug_macro   0x00000000      0x103 ./FreeRTOS/FreeRTOS-Kernel/event_groups.o
+ .debug_macro   0x00000000       0x6a ./FreeRTOS/FreeRTOS-Kernel/event_groups.o
+ .debug_macro   0x00000000      0x1df ./FreeRTOS/FreeRTOS-Kernel/event_groups.o
+ .debug_macro   0x00000000      0x148 ./FreeRTOS/FreeRTOS-Kernel/event_groups.o
+ .debug_macro   0x00000000      0x15a ./FreeRTOS/FreeRTOS-Kernel/event_groups.o
+ .debug_macro   0x00000000       0xb8 ./FreeRTOS/FreeRTOS-Kernel/event_groups.o
+ .debug_macro   0x00000000       0x28 ./FreeRTOS/FreeRTOS-Kernel/event_groups.o
+ .debug_macro   0x00000000       0x1f ./FreeRTOS/FreeRTOS-Kernel/event_groups.o
+ .debug_macro   0x00000000       0x12 ./FreeRTOS/FreeRTOS-Kernel/event_groups.o
+ .debug_macro   0x00000000      0x4fc ./FreeRTOS/FreeRTOS-Kernel/event_groups.o
+ .debug_macro   0x00000000       0xc3 ./FreeRTOS/FreeRTOS-Kernel/event_groups.o
+ .debug_macro   0x00000000      0x120 ./FreeRTOS/FreeRTOS-Kernel/event_groups.o
+ .debug_macro   0x00000000       0x91 ./FreeRTOS/FreeRTOS-Kernel/event_groups.o
+ .debug_line    0x00000000      0x7e4 ./FreeRTOS/FreeRTOS-Kernel/event_groups.o
+ .debug_str     0x00000000     0xc674 ./FreeRTOS/FreeRTOS-Kernel/event_groups.o
+ .comment       0x00000000       0x1f ./FreeRTOS/FreeRTOS-Kernel/event_groups.o
+ .debug_frame   0x00000000      0x13c ./FreeRTOS/FreeRTOS-Kernel/event_groups.o
+ .ARM.attributes
+                0x00000000       0x2c ./FreeRTOS/FreeRTOS-Kernel/event_groups.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/list.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/list.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/list.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/list.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/list.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/list.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/list.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/list.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/list.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/list.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/list.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/list.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/list.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/list.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/list.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/list.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/list.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/list.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/list.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/list.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/list.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/list.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/list.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/list.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/list.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/list.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/list.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/list.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/list.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/list.o
+ .text          0x00000000        0x0 ./FreeRTOS/FreeRTOS-Kernel/list.o
+ .data          0x00000000        0x0 ./FreeRTOS/FreeRTOS-Kernel/list.o
+ .bss           0x00000000        0x0 ./FreeRTOS/FreeRTOS-Kernel/list.o
+ .text.vListInsertEnd
+                0x00000000       0x16 ./FreeRTOS/FreeRTOS-Kernel/list.o
+ .debug_macro   0x00000000      0xaa8 ./FreeRTOS/FreeRTOS-Kernel/list.o
+ .debug_macro   0x00000000       0x24 ./FreeRTOS/FreeRTOS-Kernel/list.o
+ .debug_macro   0x00000000       0x22 ./FreeRTOS/FreeRTOS-Kernel/list.o
+ .debug_macro   0x00000000       0x6e ./FreeRTOS/FreeRTOS-Kernel/list.o
+ .debug_macro   0x00000000       0x5c ./FreeRTOS/FreeRTOS-Kernel/list.o
+ .debug_macro   0x00000000       0x3c ./FreeRTOS/FreeRTOS-Kernel/list.o
+ .debug_macro   0x00000000       0x34 ./FreeRTOS/FreeRTOS-Kernel/list.o
+ .debug_macro   0x00000000       0x16 ./FreeRTOS/FreeRTOS-Kernel/list.o
+ .debug_macro   0x00000000      0x11c ./FreeRTOS/FreeRTOS-Kernel/list.o
+ .debug_macro   0x00000000       0x94 ./FreeRTOS/FreeRTOS-Kernel/list.o
+ .debug_macro   0x00000000       0x16 ./FreeRTOS/FreeRTOS-Kernel/list.o
+ .debug_macro   0x00000000       0x4a ./FreeRTOS/FreeRTOS-Kernel/list.o
+ .debug_macro   0x00000000       0x57 ./FreeRTOS/FreeRTOS-Kernel/list.o
+ .debug_macro   0x00000000       0x34 ./FreeRTOS/FreeRTOS-Kernel/list.o
+ .debug_macro   0x00000000       0x10 ./FreeRTOS/FreeRTOS-Kernel/list.o
+ .debug_macro   0x00000000       0x58 ./FreeRTOS/FreeRTOS-Kernel/list.o
+ .debug_macro   0x00000000      0x1de ./FreeRTOS/FreeRTOS-Kernel/list.o
+ .debug_macro   0x00000000      0x385 ./FreeRTOS/FreeRTOS-Kernel/list.o
+ .debug_macro   0x00000000       0x22 ./FreeRTOS/FreeRTOS-Kernel/list.o
+ .debug_macro   0x00000000      0x103 ./FreeRTOS/FreeRTOS-Kernel/list.o
+ .debug_macro   0x00000000       0x6a ./FreeRTOS/FreeRTOS-Kernel/list.o
+ .debug_macro   0x00000000      0x1df ./FreeRTOS/FreeRTOS-Kernel/list.o
+ .debug_macro   0x00000000      0x148 ./FreeRTOS/FreeRTOS-Kernel/list.o
+ .debug_macro   0x00000000      0x15a ./FreeRTOS/FreeRTOS-Kernel/list.o
+ .debug_macro   0x00000000       0xb8 ./FreeRTOS/FreeRTOS-Kernel/list.o
+ .debug_macro   0x00000000       0x28 ./FreeRTOS/FreeRTOS-Kernel/list.o
+ .debug_macro   0x00000000       0x1f ./FreeRTOS/FreeRTOS-Kernel/list.o
+ .debug_macro   0x00000000       0x12 ./FreeRTOS/FreeRTOS-Kernel/list.o
+ .debug_macro   0x00000000      0x4fc ./FreeRTOS/FreeRTOS-Kernel/list.o
+ .debug_macro   0x00000000       0xc3 ./FreeRTOS/FreeRTOS-Kernel/list.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/queue.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/queue.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/queue.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/queue.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/queue.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/queue.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/queue.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/queue.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/queue.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/queue.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/queue.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/queue.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/queue.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/queue.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/queue.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/queue.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/queue.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/queue.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/queue.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/queue.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/queue.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/queue.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/queue.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/queue.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/queue.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/queue.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/queue.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/queue.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/queue.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/queue.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/queue.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/queue.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/queue.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/queue.o
+ .text          0x00000000        0x0 ./FreeRTOS/FreeRTOS-Kernel/queue.o
+ .data          0x00000000        0x0 ./FreeRTOS/FreeRTOS-Kernel/queue.o
+ .bss           0x00000000        0x0 ./FreeRTOS/FreeRTOS-Kernel/queue.o
+ .text.prvGetDisinheritPriorityAfterTimeout
+                0x00000000       0x12 ./FreeRTOS/FreeRTOS-Kernel/queue.o
+ .text.prvIsQueueFull
+                0x00000000       0x1e ./FreeRTOS/FreeRTOS-Kernel/queue.o
+ .text.prvCopyDataToQueue
+                0x00000000       0x7e ./FreeRTOS/FreeRTOS-Kernel/queue.o
+ .text.xQueueCreateCountingSemaphore
+                0x00000000       0x24 ./FreeRTOS/FreeRTOS-Kernel/queue.o
+ .text.xQueueGenericSend
+                0x00000000       0xee ./FreeRTOS/FreeRTOS-Kernel/queue.o
+ .text.prvInitialiseMutex
+                0x00000000       0x18 ./FreeRTOS/FreeRTOS-Kernel/queue.o
+ .text.xQueueCreateMutex
+                0x00000000       0x16 ./FreeRTOS/FreeRTOS-Kernel/queue.o
+ .text.xQueueGiveMutexRecursive
+                0x00000000       0x2e ./FreeRTOS/FreeRTOS-Kernel/queue.o
+ .text.xQueueGenericSendFromISR
+                0x00000000       0x86 ./FreeRTOS/FreeRTOS-Kernel/queue.o
+ .text.xQueueGiveFromISR
+                0x00000000       0x70 ./FreeRTOS/FreeRTOS-Kernel/queue.o
+ .text.xQueueSemaphoreTake
+                0x00000000      0x128 ./FreeRTOS/FreeRTOS-Kernel/queue.o
+ .text.xQueueTakeMutexRecursive
+                0x00000000       0x2e ./FreeRTOS/FreeRTOS-Kernel/queue.o
+ .text.xQueuePeek
+                0x00000000       0xee ./FreeRTOS/FreeRTOS-Kernel/queue.o
+ .text.xQueueReceiveFromISR
+                0x00000000       0x7e ./FreeRTOS/FreeRTOS-Kernel/queue.o
+ .text.xQueuePeekFromISR
+                0x00000000       0x2e ./FreeRTOS/FreeRTOS-Kernel/queue.o
+ .text.uxQueueMessagesWaiting
+                0x00000000       0x12 ./FreeRTOS/FreeRTOS-Kernel/queue.o
+ .text.uxQueueSpacesAvailable
+                0x00000000       0x16 ./FreeRTOS/FreeRTOS-Kernel/queue.o
+ .text.uxQueueMessagesWaitingFromISR
+                0x00000000        0x4 ./FreeRTOS/FreeRTOS-Kernel/queue.o
+ .text.uxQueueGetQueueNumber
+                0x00000000        0x4 ./FreeRTOS/FreeRTOS-Kernel/queue.o
+ .text.vQueueSetQueueNumber
+                0x00000000        0x4 ./FreeRTOS/FreeRTOS-Kernel/queue.o
+ .text.ucQueueGetQueueType
+                0x00000000        0x6 ./FreeRTOS/FreeRTOS-Kernel/queue.o
+ .text.xQueueIsQueueEmptyFromISR
+                0x00000000        0xe ./FreeRTOS/FreeRTOS-Kernel/queue.o
+ .text.xQueueIsQueueFullFromISR
+                0x00000000       0x10 ./FreeRTOS/FreeRTOS-Kernel/queue.o
+ .text.pcQueueGetName
+                0x00000000       0x24 ./FreeRTOS/FreeRTOS-Kernel/queue.o
+ .text.vQueueUnregisterQueue
+                0x00000000       0x28 ./FreeRTOS/FreeRTOS-Kernel/queue.o
+ .text.vQueueDelete
+                0x00000000       0x10 ./FreeRTOS/FreeRTOS-Kernel/queue.o
+ .debug_macro   0x00000000      0xaa8 ./FreeRTOS/FreeRTOS-Kernel/queue.o
+ .debug_macro   0x00000000       0x24 ./FreeRTOS/FreeRTOS-Kernel/queue.o
+ .debug_macro   0x00000000       0x22 ./FreeRTOS/FreeRTOS-Kernel/queue.o
+ .debug_macro   0x00000000       0x6e ./FreeRTOS/FreeRTOS-Kernel/queue.o
+ .debug_macro   0x00000000       0x5c ./FreeRTOS/FreeRTOS-Kernel/queue.o
+ .debug_macro   0x00000000       0x3c ./FreeRTOS/FreeRTOS-Kernel/queue.o
+ .debug_macro   0x00000000       0x34 ./FreeRTOS/FreeRTOS-Kernel/queue.o
+ .debug_macro   0x00000000       0x16 ./FreeRTOS/FreeRTOS-Kernel/queue.o
+ .debug_macro   0x00000000      0x11c ./FreeRTOS/FreeRTOS-Kernel/queue.o
+ .debug_macro   0x00000000       0x94 ./FreeRTOS/FreeRTOS-Kernel/queue.o
+ .debug_macro   0x00000000       0x16 ./FreeRTOS/FreeRTOS-Kernel/queue.o
+ .debug_macro   0x00000000       0x4a ./FreeRTOS/FreeRTOS-Kernel/queue.o
+ .debug_macro   0x00000000       0x57 ./FreeRTOS/FreeRTOS-Kernel/queue.o
+ .debug_macro   0x00000000       0x34 ./FreeRTOS/FreeRTOS-Kernel/queue.o
+ .debug_macro   0x00000000       0x10 ./FreeRTOS/FreeRTOS-Kernel/queue.o
+ .debug_macro   0x00000000       0x58 ./FreeRTOS/FreeRTOS-Kernel/queue.o
+ .debug_macro   0x00000000      0x1de ./FreeRTOS/FreeRTOS-Kernel/queue.o
+ .debug_macro   0x00000000      0x385 ./FreeRTOS/FreeRTOS-Kernel/queue.o
+ .debug_macro   0x00000000       0x22 ./FreeRTOS/FreeRTOS-Kernel/queue.o
+ .debug_macro   0x00000000      0x103 ./FreeRTOS/FreeRTOS-Kernel/queue.o
+ .debug_macro   0x00000000       0x6a ./FreeRTOS/FreeRTOS-Kernel/queue.o
+ .debug_macro   0x00000000      0x1df ./FreeRTOS/FreeRTOS-Kernel/queue.o
+ .debug_macro   0x00000000      0x148 ./FreeRTOS/FreeRTOS-Kernel/queue.o
+ .debug_macro   0x00000000      0x15a ./FreeRTOS/FreeRTOS-Kernel/queue.o
+ .debug_macro   0x00000000       0xb8 ./FreeRTOS/FreeRTOS-Kernel/queue.o
+ .debug_macro   0x00000000       0x28 ./FreeRTOS/FreeRTOS-Kernel/queue.o
+ .debug_macro   0x00000000       0x1f ./FreeRTOS/FreeRTOS-Kernel/queue.o
+ .debug_macro   0x00000000       0x12 ./FreeRTOS/FreeRTOS-Kernel/queue.o
+ .debug_macro   0x00000000      0x4fc ./FreeRTOS/FreeRTOS-Kernel/queue.o
+ .debug_macro   0x00000000       0xc3 ./FreeRTOS/FreeRTOS-Kernel/queue.o
+ .debug_macro   0x00000000      0x120 ./FreeRTOS/FreeRTOS-Kernel/queue.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/stream_buffer.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/stream_buffer.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/stream_buffer.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/stream_buffer.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/stream_buffer.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/stream_buffer.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/stream_buffer.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/stream_buffer.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/stream_buffer.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/stream_buffer.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/stream_buffer.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/stream_buffer.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/stream_buffer.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/stream_buffer.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/stream_buffer.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/stream_buffer.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/stream_buffer.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/stream_buffer.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/stream_buffer.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/stream_buffer.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/stream_buffer.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/stream_buffer.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/stream_buffer.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/stream_buffer.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/stream_buffer.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/stream_buffer.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/stream_buffer.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/stream_buffer.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/stream_buffer.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/stream_buffer.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/stream_buffer.o
+ .text          0x00000000        0x0 ./FreeRTOS/FreeRTOS-Kernel/stream_buffer.o
+ .data          0x00000000        0x0 ./FreeRTOS/FreeRTOS-Kernel/stream_buffer.o
+ .bss           0x00000000        0x0 ./FreeRTOS/FreeRTOS-Kernel/stream_buffer.o
+ .text.prvBytesInBuffer
+                0x00000000       0x12 ./FreeRTOS/FreeRTOS-Kernel/stream_buffer.o
+ .text.prvInitialiseNewStreamBuffer
+                0x00000000       0x2c ./FreeRTOS/FreeRTOS-Kernel/stream_buffer.o
+ .text.prvWriteBytesToBuffer
+                0x00000000       0x46 ./FreeRTOS/FreeRTOS-Kernel/stream_buffer.o
+ .text.prvWriteMessageToBuffer
+                0x00000000       0x4c ./FreeRTOS/FreeRTOS-Kernel/stream_buffer.o
+ .text.prvReadBytesFromBuffer
+                0x00000000       0x46 ./FreeRTOS/FreeRTOS-Kernel/stream_buffer.o
+ .text.prvReadMessageFromBuffer
+                0x00000000       0x4c ./FreeRTOS/FreeRTOS-Kernel/stream_buffer.o
+ .text.xStreamBufferGenericCreate
+                0x00000000       0x52 ./FreeRTOS/FreeRTOS-Kernel/stream_buffer.o
+ .text.vStreamBufferDelete
+                0x00000000       0x18 ./FreeRTOS/FreeRTOS-Kernel/stream_buffer.o
+ .text.xStreamBufferReset
+                0x00000000       0x44 ./FreeRTOS/FreeRTOS-Kernel/stream_buffer.o
+ .text.xStreamBufferSetTriggerLevel
+                0x00000000       0x16 ./FreeRTOS/FreeRTOS-Kernel/stream_buffer.o
+ .text.xStreamBufferSpacesAvailable
+                0x00000000       0x1e ./FreeRTOS/FreeRTOS-Kernel/stream_buffer.o
+ .text.xStreamBufferBytesAvailable
+                0x00000000        0x8 ./FreeRTOS/FreeRTOS-Kernel/stream_buffer.o
+ .text.xStreamBufferSend
+                0x00000000       0xda ./FreeRTOS/FreeRTOS-Kernel/stream_buffer.o
+ .text.xStreamBufferSendFromISR
+                0x00000000       0x6c ./FreeRTOS/FreeRTOS-Kernel/stream_buffer.o
+ .text.xStreamBufferReceive
+                0x00000000       0xa6 ./FreeRTOS/FreeRTOS-Kernel/stream_buffer.o
+ .text.xStreamBufferNextMessageLengthBytes
+                0x00000000       0x2e ./FreeRTOS/FreeRTOS-Kernel/stream_buffer.o
+ .text.xStreamBufferReceiveFromISR
+                0x00000000       0x64 ./FreeRTOS/FreeRTOS-Kernel/stream_buffer.o
+ .text.xStreamBufferIsEmpty
+                0x00000000       0x10 ./FreeRTOS/FreeRTOS-Kernel/stream_buffer.o
+ .text.xStreamBufferIsFull
+                0x00000000       0x1e ./FreeRTOS/FreeRTOS-Kernel/stream_buffer.o
+ .text.xStreamBufferSendCompletedFromISR
+                0x00000000       0x3a ./FreeRTOS/FreeRTOS-Kernel/stream_buffer.o
+ .text.xStreamBufferReceiveCompletedFromISR
+                0x00000000       0x3a ./FreeRTOS/FreeRTOS-Kernel/stream_buffer.o
+ .text.uxStreamBufferGetStreamBufferNumber
+                0x00000000        0x4 ./FreeRTOS/FreeRTOS-Kernel/stream_buffer.o
+ .text.vStreamBufferSetStreamBufferNumber
+                0x00000000        0x4 ./FreeRTOS/FreeRTOS-Kernel/stream_buffer.o
+ .text.ucStreamBufferGetStreamBufferType
+                0x00000000        0x8 ./FreeRTOS/FreeRTOS-Kernel/stream_buffer.o
+ .debug_info    0x00000000     0x15a1 ./FreeRTOS/FreeRTOS-Kernel/stream_buffer.o
+ .debug_abbrev  0x00000000      0x288 ./FreeRTOS/FreeRTOS-Kernel/stream_buffer.o
+ .debug_loclists
+                0x00000000     0x11e4 ./FreeRTOS/FreeRTOS-Kernel/stream_buffer.o
+ .debug_aranges
+                0x00000000       0xd8 ./FreeRTOS/FreeRTOS-Kernel/stream_buffer.o
+ .debug_rnglists
+                0x00000000       0x9f ./FreeRTOS/FreeRTOS-Kernel/stream_buffer.o
+ .debug_macro   0x00000000      0x1de ./FreeRTOS/FreeRTOS-Kernel/stream_buffer.o
+ .debug_macro   0x00000000      0xaa8 ./FreeRTOS/FreeRTOS-Kernel/stream_buffer.o
+ .debug_macro   0x00000000       0x22 ./FreeRTOS/FreeRTOS-Kernel/stream_buffer.o
+ .debug_macro   0x00000000       0x56 ./FreeRTOS/FreeRTOS-Kernel/stream_buffer.o
+ .debug_macro   0x00000000       0x51 ./FreeRTOS/FreeRTOS-Kernel/stream_buffer.o
+ .debug_macro   0x00000000      0x103 ./FreeRTOS/FreeRTOS-Kernel/stream_buffer.o
+ .debug_macro   0x00000000       0x6a ./FreeRTOS/FreeRTOS-Kernel/stream_buffer.o
+ .debug_macro   0x00000000      0x1df ./FreeRTOS/FreeRTOS-Kernel/stream_buffer.o
+ .debug_macro   0x00000000       0x74 ./FreeRTOS/FreeRTOS-Kernel/stream_buffer.o
+ .debug_macro   0x00000000       0x24 ./FreeRTOS/FreeRTOS-Kernel/stream_buffer.o
+ .debug_macro   0x00000000       0x3c ./FreeRTOS/FreeRTOS-Kernel/stream_buffer.o
+ .debug_macro   0x00000000       0x34 ./FreeRTOS/FreeRTOS-Kernel/stream_buffer.o
+ .debug_macro   0x00000000      0x189 ./FreeRTOS/FreeRTOS-Kernel/stream_buffer.o
+ .debug_macro   0x00000000       0x16 ./FreeRTOS/FreeRTOS-Kernel/stream_buffer.o
+ .debug_macro   0x00000000       0x4a ./FreeRTOS/FreeRTOS-Kernel/stream_buffer.o
+ .debug_macro   0x00000000       0x34 ./FreeRTOS/FreeRTOS-Kernel/stream_buffer.o
+ .debug_macro   0x00000000       0x10 ./FreeRTOS/FreeRTOS-Kernel/stream_buffer.o
+ .debug_macro   0x00000000       0x58 ./FreeRTOS/FreeRTOS-Kernel/stream_buffer.o
+ .debug_macro   0x00000000      0x1de ./FreeRTOS/FreeRTOS-Kernel/stream_buffer.o
+ .debug_macro   0x00000000      0x385 ./FreeRTOS/FreeRTOS-Kernel/stream_buffer.o
+ .debug_macro   0x00000000       0x10 ./FreeRTOS/FreeRTOS-Kernel/stream_buffer.o
+ .debug_macro   0x00000000       0x3c ./FreeRTOS/FreeRTOS-Kernel/stream_buffer.o
+ .debug_macro   0x00000000      0x148 ./FreeRTOS/FreeRTOS-Kernel/stream_buffer.o
+ .debug_macro   0x00000000      0x15a ./FreeRTOS/FreeRTOS-Kernel/stream_buffer.o
+ .debug_macro   0x00000000       0xb8 ./FreeRTOS/FreeRTOS-Kernel/stream_buffer.o
+ .debug_macro   0x00000000       0x28 ./FreeRTOS/FreeRTOS-Kernel/stream_buffer.o
+ .debug_macro   0x00000000       0x1f ./FreeRTOS/FreeRTOS-Kernel/stream_buffer.o
+ .debug_macro   0x00000000       0x12 ./FreeRTOS/FreeRTOS-Kernel/stream_buffer.o
+ .debug_macro   0x00000000      0x4fc ./FreeRTOS/FreeRTOS-Kernel/stream_buffer.o
+ .debug_macro   0x00000000       0xc3 ./FreeRTOS/FreeRTOS-Kernel/stream_buffer.o
+ .debug_macro   0x00000000      0x120 ./FreeRTOS/FreeRTOS-Kernel/stream_buffer.o
+ .debug_macro   0x00000000       0x18 ./FreeRTOS/FreeRTOS-Kernel/stream_buffer.o
+ .debug_line    0x00000000      0xd56 ./FreeRTOS/FreeRTOS-Kernel/stream_buffer.o
+ .debug_str     0x00000000     0xca83 ./FreeRTOS/FreeRTOS-Kernel/stream_buffer.o
+ .comment       0x00000000       0x1f ./FreeRTOS/FreeRTOS-Kernel/stream_buffer.o
+ .debug_frame   0x00000000      0x2a4 ./FreeRTOS/FreeRTOS-Kernel/stream_buffer.o
+ .ARM.attributes
+                0x00000000       0x2c ./FreeRTOS/FreeRTOS-Kernel/stream_buffer.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+ .text          0x00000000        0x0 ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+ .data          0x00000000        0x0 ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+ .bss           0x00000000        0x0 ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+ .text.prvTaskIsTaskSuspended
+                0x00000000       0x2c ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+ .text.prvTaskCheckFreeStackSpace
+                0x00000000       0x14 ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+ .text.vTaskDelete
+                0x00000000       0x98 ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+ .text.eTaskGetState
+                0x00000000       0x88 ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+ .text.uxTaskPriorityGet
+                0x00000000       0x20 ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+ .text.uxTaskPriorityGetFromISR
+                0x00000000       0x20 ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+ .text.vTaskPrioritySet
+                0x00000000       0xdc ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+ .text.vTaskResume
+                0x00000000       0x88 ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+ .text.xTaskResumeFromISR
+                0x00000000       0xac ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+ .text.vTaskEndScheduler
+                0x00000000       0x14 ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+ .text.xTaskGetTickCountFromISR
+                0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+ .text.uxTaskGetNumberOfTasks
+                0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+ .text.pcTaskGetName
+                0x00000000       0x14 ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+ .text.xTaskDelayUntil
+                0x00000000       0x60 ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+ .text.vTaskDelay
+                0x00000000       0x20 ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+ .text.xTaskCatchUpTicks
+                0x00000000       0x24 ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+ .text.vTaskSuspend
+                0x00000000       0xac ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+ .text.vTaskPlaceOnUnorderedEventList
+                0x00000000       0x40 ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+ .text.vTaskRemoveFromUnorderedEventList
+                0x00000000       0xb4 ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+ .text.vTaskSetTimeOutState
+                0x00000000       0x24 ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+ .text.uxTaskGetTaskNumber
+                0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+ .text.vTaskSetTaskNumber
+                0x00000000        0x8 ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+ .text.vTaskGetInfo
+                0x00000000       0x7c ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+ .text.prvListTasksWithinSingleList
+                0x00000000       0x6e ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+ .text.uxTaskGetSystemState
+                0x00000000       0xb0 ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+ .text.xTaskGetCurrentTaskHandle
+                0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+ .text.xTaskGetSchedulerState
+                0x00000000       0x24 ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+ .text.xTaskPriorityInherit
+                0x00000000       0xb4 ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+ .text.xTaskPriorityDisinherit
+                0x00000000       0x80 ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+ .text.vTaskPriorityDisinheritAfterTimeout
+                0x00000000       0x8c ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+ .text.uxTaskResetEventItemValue
+                0x00000000       0x18 ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+ .text.pvTaskIncrementMutexHeldCount
+                0x00000000       0x1c ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+ .text.ulTaskGenericNotifyTake
+                0x00000000       0x8c ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+ .text.xTaskGenericNotifyWait
+                0x00000000       0xa0 ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+ .text.xTaskGenericNotify
+                0x00000000      0x100 ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+ .text.xTaskGenericNotifyFromISR
+                0x00000000      0x140 ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+ .text.vTaskGenericNotifyGiveFromISR
+                0x00000000       0xe4 ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+ .text.xTaskGenericNotifyStateClear
+                0x00000000       0x38 ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+ .text.ulTaskGenericNotifyValueClear
+                0x00000000       0x30 ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+ .debug_macro   0x00000000      0xaa8 ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+ .debug_macro   0x00000000       0x24 ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+ .debug_macro   0x00000000       0x22 ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+ .debug_macro   0x00000000       0x6e ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+ .debug_macro   0x00000000       0x5c ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+ .debug_macro   0x00000000       0x3c ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+ .debug_macro   0x00000000       0x34 ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+ .debug_macro   0x00000000       0x16 ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+ .debug_macro   0x00000000      0x11c ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+ .debug_macro   0x00000000       0x94 ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+ .debug_macro   0x00000000       0x16 ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+ .debug_macro   0x00000000       0x4a ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+ .debug_macro   0x00000000       0x57 ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+ .debug_macro   0x00000000       0x34 ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+ .debug_macro   0x00000000       0x10 ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+ .debug_macro   0x00000000       0x58 ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+ .debug_macro   0x00000000      0x1de ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+ .debug_macro   0x00000000      0x385 ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+ .debug_macro   0x00000000       0x22 ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+ .debug_macro   0x00000000       0x16 ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+ .debug_macro   0x00000000       0x3c ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+ .debug_macro   0x00000000      0x103 ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+ .debug_macro   0x00000000       0x6a ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+ .debug_macro   0x00000000      0x1df ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+ .debug_macro   0x00000000      0x148 ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+ .debug_macro   0x00000000      0x15a ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+ .debug_macro   0x00000000       0xb8 ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+ .debug_macro   0x00000000       0x28 ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+ .debug_macro   0x00000000       0x1f ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+ .debug_macro   0x00000000       0x12 ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+ .debug_macro   0x00000000      0x4fc ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+ .debug_macro   0x00000000       0xc3 ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+ .debug_macro   0x00000000      0x120 ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+ .debug_macro   0x00000000       0x91 ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/timers.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/timers.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/timers.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/timers.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/timers.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/timers.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/timers.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/timers.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/timers.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/timers.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/timers.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/timers.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/timers.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/timers.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/timers.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/timers.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/timers.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/timers.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/timers.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/timers.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/timers.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/timers.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/timers.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/timers.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/timers.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/timers.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/timers.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/timers.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/timers.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/timers.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/timers.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/timers.o
+ .group         0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/timers.o
+ .text          0x00000000        0x0 ./FreeRTOS/FreeRTOS-Kernel/timers.o
+ .data          0x00000000        0x0 ./FreeRTOS/FreeRTOS-Kernel/timers.o
+ .bss           0x00000000        0x0 ./FreeRTOS/FreeRTOS-Kernel/timers.o
+ .text.prvInitialiseNewTimer
+                0x00000000       0x3a ./FreeRTOS/FreeRTOS-Kernel/timers.o
+ .text.xTimerCreate
+                0x00000000       0x34 ./FreeRTOS/FreeRTOS-Kernel/timers.o
+ .text.xTimerGenericCommand
+                0x00000000       0x58 ./FreeRTOS/FreeRTOS-Kernel/timers.o
+ .text.xTimerGetTimerDaemonTaskHandle
+                0x00000000        0xc ./FreeRTOS/FreeRTOS-Kernel/timers.o
+ .text.xTimerGetPeriod
+                0x00000000        0x4 ./FreeRTOS/FreeRTOS-Kernel/timers.o
+ .text.vTimerSetReloadMode
+                0x00000000       0x2a ./FreeRTOS/FreeRTOS-Kernel/timers.o
+ .text.xTimerGetReloadMode
+                0x00000000       0x1e ./FreeRTOS/FreeRTOS-Kernel/timers.o
+ .text.uxTimerGetReloadMode
+                0x00000000        0x8 ./FreeRTOS/FreeRTOS-Kernel/timers.o
+ .text.xTimerGetExpiryTime
+                0x00000000        0x4 ./FreeRTOS/FreeRTOS-Kernel/timers.o
+ .text.pcTimerGetName
+                0x00000000        0x4 ./FreeRTOS/FreeRTOS-Kernel/timers.o
+ .text.xTimerIsTimerActive
+                0x00000000       0x1e ./FreeRTOS/FreeRTOS-Kernel/timers.o
+ .text.pvTimerGetTimerID
+                0x00000000       0x12 ./FreeRTOS/FreeRTOS-Kernel/timers.o
+ .text.vTimerSetTimerID
+                0x00000000       0x12 ./FreeRTOS/FreeRTOS-Kernel/timers.o
+ .text.uxTimerGetTimerNumber
+                0x00000000        0x4 ./FreeRTOS/FreeRTOS-Kernel/timers.o
+ .text.vTimerSetTimerNumber
+                0x00000000        0x4 ./FreeRTOS/FreeRTOS-Kernel/timers.o
+ .debug_macro   0x00000000      0xaa8 ./FreeRTOS/FreeRTOS-Kernel/timers.o
+ .debug_macro   0x00000000       0x24 ./FreeRTOS/FreeRTOS-Kernel/timers.o
+ .debug_macro   0x00000000       0x22 ./FreeRTOS/FreeRTOS-Kernel/timers.o
+ .debug_macro   0x00000000       0x6e ./FreeRTOS/FreeRTOS-Kernel/timers.o
+ .debug_macro   0x00000000       0x5c ./FreeRTOS/FreeRTOS-Kernel/timers.o
+ .debug_macro   0x00000000       0x3c ./FreeRTOS/FreeRTOS-Kernel/timers.o
+ .debug_macro   0x00000000       0x34 ./FreeRTOS/FreeRTOS-Kernel/timers.o
+ .debug_macro   0x00000000       0x16 ./FreeRTOS/FreeRTOS-Kernel/timers.o
+ .debug_macro   0x00000000      0x11c ./FreeRTOS/FreeRTOS-Kernel/timers.o
+ .debug_macro   0x00000000       0x94 ./FreeRTOS/FreeRTOS-Kernel/timers.o
+ .debug_macro   0x00000000       0x16 ./FreeRTOS/FreeRTOS-Kernel/timers.o
+ .debug_macro   0x00000000       0x4a ./FreeRTOS/FreeRTOS-Kernel/timers.o
+ .debug_macro   0x00000000       0x57 ./FreeRTOS/FreeRTOS-Kernel/timers.o
+ .debug_macro   0x00000000       0x34 ./FreeRTOS/FreeRTOS-Kernel/timers.o
+ .debug_macro   0x00000000       0x10 ./FreeRTOS/FreeRTOS-Kernel/timers.o
+ .debug_macro   0x00000000       0x58 ./FreeRTOS/FreeRTOS-Kernel/timers.o
+ .debug_macro   0x00000000      0x1de ./FreeRTOS/FreeRTOS-Kernel/timers.o
+ .debug_macro   0x00000000      0x385 ./FreeRTOS/FreeRTOS-Kernel/timers.o
+ .debug_macro   0x00000000       0x22 ./FreeRTOS/FreeRTOS-Kernel/timers.o
+ .debug_macro   0x00000000      0x103 ./FreeRTOS/FreeRTOS-Kernel/timers.o
+ .debug_macro   0x00000000       0x6a ./FreeRTOS/FreeRTOS-Kernel/timers.o
+ .debug_macro   0x00000000      0x1df ./FreeRTOS/FreeRTOS-Kernel/timers.o
+ .debug_macro   0x00000000      0x148 ./FreeRTOS/FreeRTOS-Kernel/timers.o
+ .debug_macro   0x00000000      0x15a ./FreeRTOS/FreeRTOS-Kernel/timers.o
+ .debug_macro   0x00000000       0xb8 ./FreeRTOS/FreeRTOS-Kernel/timers.o
+ .debug_macro   0x00000000       0x28 ./FreeRTOS/FreeRTOS-Kernel/timers.o
+ .debug_macro   0x00000000       0x1f ./FreeRTOS/FreeRTOS-Kernel/timers.o
+ .debug_macro   0x00000000       0x12 ./FreeRTOS/FreeRTOS-Kernel/timers.o
+ .debug_macro   0x00000000      0x4fc ./FreeRTOS/FreeRTOS-Kernel/timers.o
+ .debug_macro   0x00000000       0xc3 ./FreeRTOS/FreeRTOS-Kernel/timers.o
+ .debug_macro   0x00000000      0x120 ./FreeRTOS/FreeRTOS-Kernel/timers.o
+ .debug_macro   0x00000000       0x80 ./FreeRTOS/FreeRTOS-Kernel/timers.o
+ .group         0x00000000        0xc ./FreeRTOS/ports/stm32g0/heap_4.o
+ .group         0x00000000        0xc ./FreeRTOS/ports/stm32g0/heap_4.o
+ .group         0x00000000        0xc ./FreeRTOS/ports/stm32g0/heap_4.o
+ .group         0x00000000        0xc ./FreeRTOS/ports/stm32g0/heap_4.o
+ .group         0x00000000        0xc ./FreeRTOS/ports/stm32g0/heap_4.o
+ .group         0x00000000        0xc ./FreeRTOS/ports/stm32g0/heap_4.o
+ .group         0x00000000        0xc ./FreeRTOS/ports/stm32g0/heap_4.o
+ .group         0x00000000        0xc ./FreeRTOS/ports/stm32g0/heap_4.o
+ .group         0x00000000        0xc ./FreeRTOS/ports/stm32g0/heap_4.o
+ .group         0x00000000        0xc ./FreeRTOS/ports/stm32g0/heap_4.o
+ .group         0x00000000        0xc ./FreeRTOS/ports/stm32g0/heap_4.o
+ .group         0x00000000        0xc ./FreeRTOS/ports/stm32g0/heap_4.o
+ .group         0x00000000        0xc ./FreeRTOS/ports/stm32g0/heap_4.o
+ .group         0x00000000        0xc ./FreeRTOS/ports/stm32g0/heap_4.o
+ .group         0x00000000        0xc ./FreeRTOS/ports/stm32g0/heap_4.o
+ .group         0x00000000        0xc ./FreeRTOS/ports/stm32g0/heap_4.o
+ .group         0x00000000        0xc ./FreeRTOS/ports/stm32g0/heap_4.o
+ .group         0x00000000        0xc ./FreeRTOS/ports/stm32g0/heap_4.o
+ .group         0x00000000        0xc ./FreeRTOS/ports/stm32g0/heap_4.o
+ .group         0x00000000        0xc ./FreeRTOS/ports/stm32g0/heap_4.o
+ .group         0x00000000        0xc ./FreeRTOS/ports/stm32g0/heap_4.o
+ .group         0x00000000        0xc ./FreeRTOS/ports/stm32g0/heap_4.o
+ .group         0x00000000        0xc ./FreeRTOS/ports/stm32g0/heap_4.o
+ .group         0x00000000        0xc ./FreeRTOS/ports/stm32g0/heap_4.o
+ .group         0x00000000        0xc ./FreeRTOS/ports/stm32g0/heap_4.o
+ .group         0x00000000        0xc ./FreeRTOS/ports/stm32g0/heap_4.o
+ .group         0x00000000        0xc ./FreeRTOS/ports/stm32g0/heap_4.o
+ .group         0x00000000        0xc ./FreeRTOS/ports/stm32g0/heap_4.o
+ .group         0x00000000        0xc ./FreeRTOS/ports/stm32g0/heap_4.o
+ .group         0x00000000        0xc ./FreeRTOS/ports/stm32g0/heap_4.o
+ .group         0x00000000        0xc ./FreeRTOS/ports/stm32g0/heap_4.o
+ .text          0x00000000        0x0 ./FreeRTOS/ports/stm32g0/heap_4.o
+ .data          0x00000000        0x0 ./FreeRTOS/ports/stm32g0/heap_4.o
+ .bss           0x00000000        0x0 ./FreeRTOS/ports/stm32g0/heap_4.o
+ .text.xPortGetFreeHeapSize
+                0x00000000        0xc ./FreeRTOS/ports/stm32g0/heap_4.o
+ .text.xPortGetMinimumEverFreeHeapSize
+                0x00000000        0xc ./FreeRTOS/ports/stm32g0/heap_4.o
+ .text.vPortInitialiseBlocks
+                0x00000000        0x2 ./FreeRTOS/ports/stm32g0/heap_4.o
+ .text.vPortGetHeapStats
+                0x00000000       0x84 ./FreeRTOS/ports/stm32g0/heap_4.o
+ .debug_macro   0x00000000      0xaa8 ./FreeRTOS/ports/stm32g0/heap_4.o
+ .debug_macro   0x00000000       0x24 ./FreeRTOS/ports/stm32g0/heap_4.o
+ .debug_macro   0x00000000       0x22 ./FreeRTOS/ports/stm32g0/heap_4.o
+ .debug_macro   0x00000000       0x6e ./FreeRTOS/ports/stm32g0/heap_4.o
+ .debug_macro   0x00000000       0x5c ./FreeRTOS/ports/stm32g0/heap_4.o
+ .debug_macro   0x00000000       0x3c ./FreeRTOS/ports/stm32g0/heap_4.o
+ .debug_macro   0x00000000       0x34 ./FreeRTOS/ports/stm32g0/heap_4.o
+ .debug_macro   0x00000000       0x16 ./FreeRTOS/ports/stm32g0/heap_4.o
+ .debug_macro   0x00000000      0x11c ./FreeRTOS/ports/stm32g0/heap_4.o
+ .debug_macro   0x00000000       0x94 ./FreeRTOS/ports/stm32g0/heap_4.o
+ .debug_macro   0x00000000       0x16 ./FreeRTOS/ports/stm32g0/heap_4.o
+ .debug_macro   0x00000000       0x4a ./FreeRTOS/ports/stm32g0/heap_4.o
+ .debug_macro   0x00000000       0x57 ./FreeRTOS/ports/stm32g0/heap_4.o
+ .debug_macro   0x00000000       0x34 ./FreeRTOS/ports/stm32g0/heap_4.o
+ .debug_macro   0x00000000       0x10 ./FreeRTOS/ports/stm32g0/heap_4.o
+ .debug_macro   0x00000000       0x58 ./FreeRTOS/ports/stm32g0/heap_4.o
+ .debug_macro   0x00000000      0x1de ./FreeRTOS/ports/stm32g0/heap_4.o
+ .debug_macro   0x00000000      0x385 ./FreeRTOS/ports/stm32g0/heap_4.o
+ .debug_macro   0x00000000       0x22 ./FreeRTOS/ports/stm32g0/heap_4.o
+ .debug_macro   0x00000000      0x103 ./FreeRTOS/ports/stm32g0/heap_4.o
+ .debug_macro   0x00000000       0x6a ./FreeRTOS/ports/stm32g0/heap_4.o
+ .debug_macro   0x00000000      0x1df ./FreeRTOS/ports/stm32g0/heap_4.o
+ .debug_macro   0x00000000      0x148 ./FreeRTOS/ports/stm32g0/heap_4.o
+ .debug_macro   0x00000000      0x15a ./FreeRTOS/ports/stm32g0/heap_4.o
+ .debug_macro   0x00000000       0xb8 ./FreeRTOS/ports/stm32g0/heap_4.o
+ .debug_macro   0x00000000       0x28 ./FreeRTOS/ports/stm32g0/heap_4.o
+ .debug_macro   0x00000000       0x1f ./FreeRTOS/ports/stm32g0/heap_4.o
+ .debug_macro   0x00000000       0x12 ./FreeRTOS/ports/stm32g0/heap_4.o
+ .debug_macro   0x00000000      0x4fc ./FreeRTOS/ports/stm32g0/heap_4.o
+ .debug_macro   0x00000000       0xc3 ./FreeRTOS/ports/stm32g0/heap_4.o
+ .debug_macro   0x00000000      0x120 ./FreeRTOS/ports/stm32g0/heap_4.o
+ .group         0x00000000        0xc ./FreeRTOS/ports/stm32g0/port.o
+ .group         0x00000000        0xc ./FreeRTOS/ports/stm32g0/port.o
+ .group         0x00000000        0xc ./FreeRTOS/ports/stm32g0/port.o
+ .group         0x00000000        0xc ./FreeRTOS/ports/stm32g0/port.o
+ .group         0x00000000        0xc ./FreeRTOS/ports/stm32g0/port.o
+ .group         0x00000000        0xc ./FreeRTOS/ports/stm32g0/port.o
+ .group         0x00000000        0xc ./FreeRTOS/ports/stm32g0/port.o
+ .group         0x00000000        0xc ./FreeRTOS/ports/stm32g0/port.o
+ .group         0x00000000        0xc ./FreeRTOS/ports/stm32g0/port.o
+ .group         0x00000000        0xc ./FreeRTOS/ports/stm32g0/port.o
+ .group         0x00000000        0xc ./FreeRTOS/ports/stm32g0/port.o
+ .group         0x00000000        0xc ./FreeRTOS/ports/stm32g0/port.o
+ .group         0x00000000        0xc ./FreeRTOS/ports/stm32g0/port.o
+ .group         0x00000000        0xc ./FreeRTOS/ports/stm32g0/port.o
+ .group         0x00000000        0xc ./FreeRTOS/ports/stm32g0/port.o
+ .group         0x00000000        0xc ./FreeRTOS/ports/stm32g0/port.o
+ .group         0x00000000        0xc ./FreeRTOS/ports/stm32g0/port.o
+ .group         0x00000000        0xc ./FreeRTOS/ports/stm32g0/port.o
+ .text          0x00000000        0x0 ./FreeRTOS/ports/stm32g0/port.o
+ .data          0x00000000        0x0 ./FreeRTOS/ports/stm32g0/port.o
+ .bss           0x00000000        0x0 ./FreeRTOS/ports/stm32g0/port.o
+ .text.SVC_Handler
+                0x00000000        0x2 ./FreeRTOS/ports/stm32g0/port.o
+ .text.vPortEndScheduler
+                0x00000000        0x2 ./FreeRTOS/ports/stm32g0/port.o
+ .text.ulSetInterruptMaskFromISR
+                0x00000000        0x8 ./FreeRTOS/ports/stm32g0/port.o
+ .text.vClearInterruptMaskFromISR
+                0x00000000        0x6 ./FreeRTOS/ports/stm32g0/port.o
+ .text.PendSV_Handler
+                0x00000000       0x44 ./FreeRTOS/ports/stm32g0/port.o
+ .text.SysTick_Handler
+                0x00000000       0x24 ./FreeRTOS/ports/stm32g0/port.o
+ .debug_macro   0x00000000      0xaa8 ./FreeRTOS/ports/stm32g0/port.o
+ .debug_macro   0x00000000      0x189 ./FreeRTOS/ports/stm32g0/port.o
+ .debug_macro   0x00000000       0x22 ./FreeRTOS/ports/stm32g0/port.o
+ .debug_macro   0x00000000       0x56 ./FreeRTOS/ports/stm32g0/port.o
+ .debug_macro   0x00000000       0x51 ./FreeRTOS/ports/stm32g0/port.o
+ .debug_macro   0x00000000      0x103 ./FreeRTOS/ports/stm32g0/port.o
+ .debug_macro   0x00000000       0x6a ./FreeRTOS/ports/stm32g0/port.o
+ .debug_macro   0x00000000      0x1df ./FreeRTOS/ports/stm32g0/port.o
+ .debug_macro   0x00000000      0x148 ./FreeRTOS/ports/stm32g0/port.o
+ .debug_macro   0x00000000      0x15a ./FreeRTOS/ports/stm32g0/port.o
+ .debug_macro   0x00000000       0xb8 ./FreeRTOS/ports/stm32g0/port.o
+ .debug_macro   0x00000000       0x28 ./FreeRTOS/ports/stm32g0/port.o
+ .debug_macro   0x00000000       0x1f ./FreeRTOS/ports/stm32g0/port.o
+ .debug_macro   0x00000000       0x12 ./FreeRTOS/ports/stm32g0/port.o
+ .debug_macro   0x00000000      0x4fc ./FreeRTOS/ports/stm32g0/port.o
+ .debug_macro   0x00000000       0xc3 ./FreeRTOS/ports/stm32g0/port.o
+ .debug_macro   0x00000000      0x120 ./FreeRTOS/ports/stm32g0/port.o
+ .group         0x00000000        0xc ./libopencm3/lib/libopencm3_stm32g0.a(gpio_common_all.o)
+ .group         0x00000000        0xc ./libopencm3/lib/libopencm3_stm32g0.a(gpio_common_all.o)
+ .group         0x00000000        0xc ./libopencm3/lib/libopencm3_stm32g0.a(gpio_common_all.o)
+ .group         0x00000000        0xc ./libopencm3/lib/libopencm3_stm32g0.a(gpio_common_all.o)
+ .group         0x00000000        0xc ./libopencm3/lib/libopencm3_stm32g0.a(gpio_common_all.o)
+ .group         0x00000000        0xc ./libopencm3/lib/libopencm3_stm32g0.a(gpio_common_all.o)
+ .group         0x00000000        0xc ./libopencm3/lib/libopencm3_stm32g0.a(gpio_common_all.o)
+ .group         0x00000000        0xc ./libopencm3/lib/libopencm3_stm32g0.a(gpio_common_all.o)
+ .group         0x00000000        0xc ./libopencm3/lib/libopencm3_stm32g0.a(gpio_common_all.o)
+ .group         0x00000000        0xc ./libopencm3/lib/libopencm3_stm32g0.a(gpio_common_all.o)
+ .group         0x00000000        0xc ./libopencm3/lib/libopencm3_stm32g0.a(gpio_common_all.o)
+ .group         0x00000000        0xc ./libopencm3/lib/libopencm3_stm32g0.a(gpio_common_all.o)
+ .group         0x00000000        0xc ./libopencm3/lib/libopencm3_stm32g0.a(gpio_common_all.o)
+ .group         0x00000000        0xc ./libopencm3/lib/libopencm3_stm32g0.a(gpio_common_all.o)
+ .group         0x00000000        0xc ./libopencm3/lib/libopencm3_stm32g0.a(gpio_common_all.o)
+ .group         0x00000000        0xc ./libopencm3/lib/libopencm3_stm32g0.a(gpio_common_all.o)
+ .text          0x00000000        0x0 ./libopencm3/lib/libopencm3_stm32g0.a(gpio_common_all.o)
+ .data          0x00000000        0x0 ./libopencm3/lib/libopencm3_stm32g0.a(gpio_common_all.o)
+ .bss           0x00000000        0x0 ./libopencm3/lib/libopencm3_stm32g0.a(gpio_common_all.o)
+ .text.gpio_set
+                0x00000000        0x4 ./libopencm3/lib/libopencm3_stm32g0.a(gpio_common_all.o)
+ .text.gpio_clear
+                0x00000000        0x6 ./libopencm3/lib/libopencm3_stm32g0.a(gpio_common_all.o)
+ .text.gpio_get
+                0x00000000        0x6 ./libopencm3/lib/libopencm3_stm32g0.a(gpio_common_all.o)
+ .text.gpio_port_read
+                0x00000000        0x6 ./libopencm3/lib/libopencm3_stm32g0.a(gpio_common_all.o)
+ .text.gpio_port_write
+                0x00000000        0x4 ./libopencm3/lib/libopencm3_stm32g0.a(gpio_common_all.o)
+ .text.gpio_port_config_lock
+                0x00000000       0x12 ./libopencm3/lib/libopencm3_stm32g0.a(gpio_common_all.o)
+ .debug_macro   0x00000000       0x1c ./libopencm3/lib/libopencm3_stm32g0.a(gpio_common_all.o)
+ .debug_macro   0x00000000       0x22 ./libopencm3/lib/libopencm3_stm32g0.a(gpio_common_all.o)
+ .debug_macro   0x00000000       0x56 ./libopencm3/lib/libopencm3_stm32g0.a(gpio_common_all.o)
+ .debug_macro   0x00000000       0x51 ./libopencm3/lib/libopencm3_stm32g0.a(gpio_common_all.o)
+ .debug_macro   0x00000000      0x103 ./libopencm3/lib/libopencm3_stm32g0.a(gpio_common_all.o)
+ .debug_macro   0x00000000       0x6a ./libopencm3/lib/libopencm3_stm32g0.a(gpio_common_all.o)
+ .debug_macro   0x00000000      0x1df ./libopencm3/lib/libopencm3_stm32g0.a(gpio_common_all.o)
+ .debug_macro   0x00000000       0x22 ./libopencm3/lib/libopencm3_stm32g0.a(gpio_common_all.o)
+ .debug_macro   0x00000000       0xe8 ./libopencm3/lib/libopencm3_stm32g0.a(gpio_common_all.o)
+ .debug_macro   0x00000000       0x52 ./libopencm3/lib/libopencm3_stm32g0.a(gpio_common_all.o)
+ .debug_macro   0x00000000      0x1d2 ./libopencm3/lib/libopencm3_stm32g0.a(gpio_common_all.o)
+ .debug_macro   0x00000000       0x76 ./libopencm3/lib/libopencm3_stm32g0.a(gpio_common_all.o)
+ .debug_macro   0x00000000      0x37e ./libopencm3/lib/libopencm3_stm32g0.a(gpio_common_all.o)
+ .debug_macro   0x00000000       0xca ./libopencm3/lib/libopencm3_stm32g0.a(gpio_common_all.o)
+ .debug_macro   0x00000000       0x46 ./libopencm3/lib/libopencm3_stm32g0.a(gpio_common_all.o)
+ .group         0x00000000        0xc ./libopencm3/lib/libopencm3_stm32g0.a(gpio_common_f0234.o)
+ .group         0x00000000        0xc ./libopencm3/lib/libopencm3_stm32g0.a(gpio_common_f0234.o)
+ .group         0x00000000        0xc ./libopencm3/lib/libopencm3_stm32g0.a(gpio_common_f0234.o)
+ .group         0x00000000        0xc ./libopencm3/lib/libopencm3_stm32g0.a(gpio_common_f0234.o)
+ .group         0x00000000        0xc ./libopencm3/lib/libopencm3_stm32g0.a(gpio_common_f0234.o)
+ .group         0x00000000        0xc ./libopencm3/lib/libopencm3_stm32g0.a(gpio_common_f0234.o)
+ .group         0x00000000        0xc ./libopencm3/lib/libopencm3_stm32g0.a(gpio_common_f0234.o)
+ .group         0x00000000        0xc ./libopencm3/lib/libopencm3_stm32g0.a(gpio_common_f0234.o)
+ .group         0x00000000        0xc ./libopencm3/lib/libopencm3_stm32g0.a(gpio_common_f0234.o)
+ .group         0x00000000        0xc ./libopencm3/lib/libopencm3_stm32g0.a(gpio_common_f0234.o)
+ .group         0x00000000        0xc ./libopencm3/lib/libopencm3_stm32g0.a(gpio_common_f0234.o)
+ .group         0x00000000        0xc ./libopencm3/lib/libopencm3_stm32g0.a(gpio_common_f0234.o)
+ .group         0x00000000        0xc ./libopencm3/lib/libopencm3_stm32g0.a(gpio_common_f0234.o)
+ .group         0x00000000        0xc ./libopencm3/lib/libopencm3_stm32g0.a(gpio_common_f0234.o)
+ .group         0x00000000        0xc ./libopencm3/lib/libopencm3_stm32g0.a(gpio_common_f0234.o)
+ .group         0x00000000        0xc ./libopencm3/lib/libopencm3_stm32g0.a(gpio_common_f0234.o)
+ .text          0x00000000        0x0 ./libopencm3/lib/libopencm3_stm32g0.a(gpio_common_f0234.o)
+ .data          0x00000000        0x0 ./libopencm3/lib/libopencm3_stm32g0.a(gpio_common_f0234.o)
+ .bss           0x00000000        0x0 ./libopencm3/lib/libopencm3_stm32g0.a(gpio_common_f0234.o)
+ .text.gpio_set_output_options
+                0x00000000       0x3c ./libopencm3/lib/libopencm3_stm32g0.a(gpio_common_f0234.o)
+ .text.gpio_set_af
+                0x00000000       0x58 ./libopencm3/lib/libopencm3_stm32g0.a(gpio_common_f0234.o)
+ .debug_macro   0x00000000      0xaa2 ./libopencm3/lib/libopencm3_stm32g0.a(gpio_common_f0234.o)
+ .debug_macro   0x00000000       0x1c ./libopencm3/lib/libopencm3_stm32g0.a(gpio_common_f0234.o)
+ .debug_macro   0x00000000       0x22 ./libopencm3/lib/libopencm3_stm32g0.a(gpio_common_f0234.o)
+ .debug_macro   0x00000000       0x56 ./libopencm3/lib/libopencm3_stm32g0.a(gpio_common_f0234.o)
+ .debug_macro   0x00000000       0x51 ./libopencm3/lib/libopencm3_stm32g0.a(gpio_common_f0234.o)
+ .debug_macro   0x00000000      0x103 ./libopencm3/lib/libopencm3_stm32g0.a(gpio_common_f0234.o)
+ .debug_macro   0x00000000       0x6a ./libopencm3/lib/libopencm3_stm32g0.a(gpio_common_f0234.o)
+ .debug_macro   0x00000000      0x1df ./libopencm3/lib/libopencm3_stm32g0.a(gpio_common_f0234.o)
+ .debug_macro   0x00000000       0x22 ./libopencm3/lib/libopencm3_stm32g0.a(gpio_common_f0234.o)
+ .debug_macro   0x00000000       0xe8 ./libopencm3/lib/libopencm3_stm32g0.a(gpio_common_f0234.o)
+ .debug_macro   0x00000000       0x52 ./libopencm3/lib/libopencm3_stm32g0.a(gpio_common_f0234.o)
+ .debug_macro   0x00000000      0x1d2 ./libopencm3/lib/libopencm3_stm32g0.a(gpio_common_f0234.o)
+ .debug_macro   0x00000000       0x76 ./libopencm3/lib/libopencm3_stm32g0.a(gpio_common_f0234.o)
+ .debug_macro   0x00000000      0x37e ./libopencm3/lib/libopencm3_stm32g0.a(gpio_common_f0234.o)
+ .debug_macro   0x00000000       0xca ./libopencm3/lib/libopencm3_stm32g0.a(gpio_common_f0234.o)
+ .debug_macro   0x00000000       0x46 ./libopencm3/lib/libopencm3_stm32g0.a(gpio_common_f0234.o)
+ .group         0x00000000        0xc ./libopencm3/lib/libopencm3_stm32g0.a(rcc.o)
+ .group         0x00000000        0xc ./libopencm3/lib/libopencm3_stm32g0.a(rcc.o)
+ .group         0x00000000        0xc ./libopencm3/lib/libopencm3_stm32g0.a(rcc.o)
+ .group         0x00000000        0xc ./libopencm3/lib/libopencm3_stm32g0.a(rcc.o)
+ .group         0x00000000        0xc ./libopencm3/lib/libopencm3_stm32g0.a(rcc.o)
+ .group         0x00000000        0xc ./libopencm3/lib/libopencm3_stm32g0.a(rcc.o)
+ .group         0x00000000        0xc ./libopencm3/lib/libopencm3_stm32g0.a(rcc.o)
+ .group         0x00000000        0xc ./libopencm3/lib/libopencm3_stm32g0.a(rcc.o)
+ .group         0x00000000        0xc ./libopencm3/lib/libopencm3_stm32g0.a(rcc.o)
+ .group         0x00000000        0xc ./libopencm3/lib/libopencm3_stm32g0.a(rcc.o)
+ .group         0x00000000        0xc ./libopencm3/lib/libopencm3_stm32g0.a(rcc.o)
+ .group         0x00000000        0xc ./libopencm3/lib/libopencm3_stm32g0.a(rcc.o)
+ .group         0x00000000        0xc ./libopencm3/lib/libopencm3_stm32g0.a(rcc.o)
+ .group         0x00000000        0xc ./libopencm3/lib/libopencm3_stm32g0.a(rcc.o)
+ .group         0x00000000        0xc ./libopencm3/lib/libopencm3_stm32g0.a(rcc.o)
+ .group         0x00000000        0xc ./libopencm3/lib/libopencm3_stm32g0.a(rcc.o)
+ .text          0x00000000        0x0 ./libopencm3/lib/libopencm3_stm32g0.a(rcc.o)
+ .data          0x00000000        0x0 ./libopencm3/lib/libopencm3_stm32g0.a(rcc.o)
+ .bss           0x00000000        0x0 ./libopencm3/lib/libopencm3_stm32g0.a(rcc.o)
+ .text.rcc_get_clksel_freq
+                0x00000000       0x50 ./libopencm3/lib/libopencm3_stm32g0.a(rcc.o)
+ .text.rcc_css_enable
+                0x00000000       0x14 ./libopencm3/lib/libopencm3_stm32g0.a(rcc.o)
+ .text.rcc_css_disable
+                0x00000000       0x14 ./libopencm3/lib/libopencm3_stm32g0.a(rcc.o)
+ .text.rcc_css_int_clear
+                0x00000000       0x14 ./libopencm3/lib/libopencm3_stm32g0.a(rcc.o)
+ .text.rcc_css_int_flag
+                0x00000000       0x10 ./libopencm3/lib/libopencm3_stm32g0.a(rcc.o)
+ .text.rcc_system_clock_source
+                0x00000000       0x20 ./libopencm3/lib/libopencm3_stm32g0.a(rcc.o)
+ .text.rcc_set_pll_source
+                0x00000000       0x14 ./libopencm3/lib/libopencm3_stm32g0.a(rcc.o)
+ .text.rcc_enable_pllp
+                0x00000000       0x24 ./libopencm3/lib/libopencm3_stm32g0.a(rcc.o)
+ .text.rcc_enable_pllq
+                0x00000000       0x24 ./libopencm3/lib/libopencm3_stm32g0.a(rcc.o)
+ .text.rcc_enable_pllr
+                0x00000000       0x24 ./libopencm3/lib/libopencm3_stm32g0.a(rcc.o)
+ .text.rcc_set_mcopre
+                0x00000000       0x18 ./libopencm3/lib/libopencm3_stm32g0.a(rcc.o)
+ .text.rcc_set_rng_clk_div
+                0x00000000       0x18 ./libopencm3/lib/libopencm3_stm32g0.a(rcc.o)
+ .text.rcc_set_peripheral_clk_sel
+                0x00000000       0x94 ./libopencm3/lib/libopencm3_stm32g0.a(rcc.o)
+ .text.rcc_get_usart_clk_freq
+                0x00000000       0x50 ./libopencm3/lib/libopencm3_stm32g0.a(rcc.o)
+ .text.rcc_get_timer_clk_freq
+                0x00000000       0x1c ./libopencm3/lib/libopencm3_stm32g0.a(rcc.o)
+ .text.rcc_get_i2c_clk_freq
+                0x00000000       0x28 ./libopencm3/lib/libopencm3_stm32g0.a(rcc.o)
+ .text.rcc_get_spi_clk_freq
+                0x00000000        0xc ./libopencm3/lib/libopencm3_stm32g0.a(rcc.o)
+ .rodata.CSWTCH.15
+                0x00000000        0x3 ./libopencm3/lib/libopencm3_stm32g0.a(rcc.o)
+ .debug_macro   0x00000000      0xaa2 ./libopencm3/lib/libopencm3_stm32g0.a(rcc.o)
+ .debug_macro   0x00000000       0x1c ./libopencm3/lib/libopencm3_stm32g0.a(rcc.o)
+ .debug_macro   0x00000000       0x22 ./libopencm3/lib/libopencm3_stm32g0.a(rcc.o)
+ .debug_macro   0x00000000       0x56 ./libopencm3/lib/libopencm3_stm32g0.a(rcc.o)
+ .debug_macro   0x00000000       0x51 ./libopencm3/lib/libopencm3_stm32g0.a(rcc.o)
+ .debug_macro   0x00000000      0x103 ./libopencm3/lib/libopencm3_stm32g0.a(rcc.o)
+ .debug_macro   0x00000000       0x6a ./libopencm3/lib/libopencm3_stm32g0.a(rcc.o)
+ .debug_macro   0x00000000      0x1df ./libopencm3/lib/libopencm3_stm32g0.a(rcc.o)
+ .debug_macro   0x00000000       0x22 ./libopencm3/lib/libopencm3_stm32g0.a(rcc.o)
+ .debug_macro   0x00000000       0xe8 ./libopencm3/lib/libopencm3_stm32g0.a(rcc.o)
+ .debug_macro   0x00000000       0x52 ./libopencm3/lib/libopencm3_stm32g0.a(rcc.o)
+ .debug_macro   0x00000000      0x1d2 ./libopencm3/lib/libopencm3_stm32g0.a(rcc.o)
+ .debug_macro   0x00000000      0x225 ./libopencm3/lib/libopencm3_stm32g0.a(rcc.o)
+ .debug_macro   0x00000000      0x9cc ./libopencm3/lib/libopencm3_stm32g0.a(rcc.o)
+ .group         0x00000000        0xc ./libopencm3/lib/libopencm3_stm32g0.a(rcc_common_all.o)
+ .group         0x00000000        0xc ./libopencm3/lib/libopencm3_stm32g0.a(rcc_common_all.o)
+ .group         0x00000000        0xc ./libopencm3/lib/libopencm3_stm32g0.a(rcc_common_all.o)
+ .group         0x00000000        0xc ./libopencm3/lib/libopencm3_stm32g0.a(rcc_common_all.o)
+ .group         0x00000000        0xc ./libopencm3/lib/libopencm3_stm32g0.a(rcc_common_all.o)
+ .group         0x00000000        0xc ./libopencm3/lib/libopencm3_stm32g0.a(rcc_common_all.o)
+ .group         0x00000000        0xc ./libopencm3/lib/libopencm3_stm32g0.a(rcc_common_all.o)
+ .group         0x00000000        0xc ./libopencm3/lib/libopencm3_stm32g0.a(rcc_common_all.o)
+ .group         0x00000000        0xc ./libopencm3/lib/libopencm3_stm32g0.a(rcc_common_all.o)
+ .group         0x00000000        0xc ./libopencm3/lib/libopencm3_stm32g0.a(rcc_common_all.o)
+ .group         0x00000000        0xc ./libopencm3/lib/libopencm3_stm32g0.a(rcc_common_all.o)
+ .group         0x00000000        0xc ./libopencm3/lib/libopencm3_stm32g0.a(rcc_common_all.o)
+ .group         0x00000000        0xc ./libopencm3/lib/libopencm3_stm32g0.a(rcc_common_all.o)
+ .group         0x00000000        0xc ./libopencm3/lib/libopencm3_stm32g0.a(rcc_common_all.o)
+ .text          0x00000000        0x0 ./libopencm3/lib/libopencm3_stm32g0.a(rcc_common_all.o)
+ .data          0x00000000        0x0 ./libopencm3/lib/libopencm3_stm32g0.a(rcc_common_all.o)
+ .bss           0x00000000        0x0 ./libopencm3/lib/libopencm3_stm32g0.a(rcc_common_all.o)
+ .text.rcc_peripheral_enable_clock
+                0x00000000        0x8 ./libopencm3/lib/libopencm3_stm32g0.a(rcc_common_all.o)
+ .text.rcc_peripheral_disable_clock
+                0x00000000        0x8 ./libopencm3/lib/libopencm3_stm32g0.a(rcc_common_all.o)
+ .text.rcc_peripheral_reset
+                0x00000000        0x8 ./libopencm3/lib/libopencm3_stm32g0.a(rcc_common_all.o)
+ .text.rcc_peripheral_clear_reset
+                0x00000000        0x8 ./libopencm3/lib/libopencm3_stm32g0.a(rcc_common_all.o)
+ .text.rcc_periph_clock_disable
+                0x00000000       0x1c ./libopencm3/lib/libopencm3_stm32g0.a(rcc_common_all.o)
+ .text.rcc_periph_reset_pulse
+                0x00000000       0x20 ./libopencm3/lib/libopencm3_stm32g0.a(rcc_common_all.o)
+ .text.rcc_periph_reset_hold
+                0x00000000        0x8 ./libopencm3/lib/libopencm3_stm32g0.a(rcc_common_all.o)
+ .text.rcc_periph_reset_release
+                0x00000000        0x8 ./libopencm3/lib/libopencm3_stm32g0.a(rcc_common_all.o)
+ .text.rcc_set_mco
+                0x00000000       0x18 ./libopencm3/lib/libopencm3_stm32g0.a(rcc_common_all.o)
+ .text.rcc_osc_bypass_enable
+                0x00000000       0x28 ./libopencm3/lib/libopencm3_stm32g0.a(rcc_common_all.o)
+ .text.rcc_osc_bypass_disable
+                0x00000000       0x2c ./libopencm3/lib/libopencm3_stm32g0.a(rcc_common_all.o)
+ .text.rcc_get_div_from_hpre
+                0x00000000       0x1a ./libopencm3/lib/libopencm3_stm32g0.a(rcc_common_all.o)
+ .debug_macro   0x00000000      0xaa2 ./libopencm3/lib/libopencm3_stm32g0.a(rcc_common_all.o)
+ .debug_macro   0x00000000       0x1c ./libopencm3/lib/libopencm3_stm32g0.a(rcc_common_all.o)
+ .debug_macro   0x00000000       0x22 ./libopencm3/lib/libopencm3_stm32g0.a(rcc_common_all.o)
+ .debug_macro   0x00000000       0x56 ./libopencm3/lib/libopencm3_stm32g0.a(rcc_common_all.o)
+ .debug_macro   0x00000000       0x51 ./libopencm3/lib/libopencm3_stm32g0.a(rcc_common_all.o)
+ .debug_macro   0x00000000      0x103 ./libopencm3/lib/libopencm3_stm32g0.a(rcc_common_all.o)
+ .debug_macro   0x00000000       0x6a ./libopencm3/lib/libopencm3_stm32g0.a(rcc_common_all.o)
+ .debug_macro   0x00000000      0x1df ./libopencm3/lib/libopencm3_stm32g0.a(rcc_common_all.o)
+ .debug_macro   0x00000000       0x22 ./libopencm3/lib/libopencm3_stm32g0.a(rcc_common_all.o)
+ .debug_macro   0x00000000       0xe8 ./libopencm3/lib/libopencm3_stm32g0.a(rcc_common_all.o)
+ .debug_macro   0x00000000       0x52 ./libopencm3/lib/libopencm3_stm32g0.a(rcc_common_all.o)
+ .debug_macro   0x00000000      0x1d2 ./libopencm3/lib/libopencm3_stm32g0.a(rcc_common_all.o)
+ .debug_macro   0x00000000      0x225 ./libopencm3/lib/libopencm3_stm32g0.a(rcc_common_all.o)
+ .debug_macro   0x00000000      0x9cc ./libopencm3/lib/libopencm3_stm32g0.a(rcc_common_all.o)
+ .group         0x00000000        0xc ./libopencm3/lib/libopencm3_stm32g0.a(vector.o)
+ .group         0x00000000        0xc ./libopencm3/lib/libopencm3_stm32g0.a(vector.o)
+ .group         0x00000000        0xc ./libopencm3/lib/libopencm3_stm32g0.a(vector.o)
+ .group         0x00000000        0xc ./libopencm3/lib/libopencm3_stm32g0.a(vector.o)
+ .group         0x00000000        0xc ./libopencm3/lib/libopencm3_stm32g0.a(vector.o)
+ .group         0x00000000        0xc ./libopencm3/lib/libopencm3_stm32g0.a(vector.o)
+ .group         0x00000000        0xc ./libopencm3/lib/libopencm3_stm32g0.a(vector.o)
+ .group         0x00000000        0xc ./libopencm3/lib/libopencm3_stm32g0.a(vector.o)
+ .group         0x00000000        0xc ./libopencm3/lib/libopencm3_stm32g0.a(vector.o)
+ .group         0x00000000        0xc ./libopencm3/lib/libopencm3_stm32g0.a(vector.o)
+ .group         0x00000000        0xc ./libopencm3/lib/libopencm3_stm32g0.a(vector.o)
+ .group         0x00000000        0xc ./libopencm3/lib/libopencm3_stm32g0.a(vector.o)
+ .group         0x00000000        0xc ./libopencm3/lib/libopencm3_stm32g0.a(vector.o)
+ .group         0x00000000        0xc ./libopencm3/lib/libopencm3_stm32g0.a(vector.o)
+ .text          0x00000000        0x0 ./libopencm3/lib/libopencm3_stm32g0.a(vector.o)
+ .data          0x00000000        0x0 ./libopencm3/lib/libopencm3_stm32g0.a(vector.o)
+ .bss           0x00000000        0x0 ./libopencm3/lib/libopencm3_stm32g0.a(vector.o)
+ .debug_macro   0x00000000      0xaa2 ./libopencm3/lib/libopencm3_stm32g0.a(vector.o)
+ .debug_macro   0x00000000       0x52 ./libopencm3/lib/libopencm3_stm32g0.a(vector.o)
+ .debug_macro   0x00000000       0x1c ./libopencm3/lib/libopencm3_stm32g0.a(vector.o)
+ .debug_macro   0x00000000       0x22 ./libopencm3/lib/libopencm3_stm32g0.a(vector.o)
+ .debug_macro   0x00000000       0x56 ./libopencm3/lib/libopencm3_stm32g0.a(vector.o)
+ .debug_macro   0x00000000       0x51 ./libopencm3/lib/libopencm3_stm32g0.a(vector.o)
+ .debug_macro   0x00000000      0x103 ./libopencm3/lib/libopencm3_stm32g0.a(vector.o)
+ .debug_macro   0x00000000       0x6a ./libopencm3/lib/libopencm3_stm32g0.a(vector.o)
+ .debug_macro   0x00000000      0x1df ./libopencm3/lib/libopencm3_stm32g0.a(vector.o)
+ .debug_macro   0x00000000       0x22 ./libopencm3/lib/libopencm3_stm32g0.a(vector.o)
+ .debug_macro   0x00000000       0xe8 ./libopencm3/lib/libopencm3_stm32g0.a(vector.o)
+ .group         0x00000000        0xc ./libopencm3/lib/libopencm3_stm32g0.a(assert.o)
+ .group         0x00000000        0xc ./libopencm3/lib/libopencm3_stm32g0.a(assert.o)
+ .group         0x00000000        0xc ./libopencm3/lib/libopencm3_stm32g0.a(assert.o)
+ .group         0x00000000        0xc ./libopencm3/lib/libopencm3_stm32g0.a(assert.o)
+ .group         0x00000000        0xc ./libopencm3/lib/libopencm3_stm32g0.a(assert.o)
+ .group         0x00000000        0xc ./libopencm3/lib/libopencm3_stm32g0.a(assert.o)
+ .group         0x00000000        0xc ./libopencm3/lib/libopencm3_stm32g0.a(assert.o)
+ .group         0x00000000        0xc ./libopencm3/lib/libopencm3_stm32g0.a(assert.o)
+ .group         0x00000000        0xc ./libopencm3/lib/libopencm3_stm32g0.a(assert.o)
+ .group         0x00000000        0xc ./libopencm3/lib/libopencm3_stm32g0.a(assert.o)
+ .group         0x00000000        0xc ./libopencm3/lib/libopencm3_stm32g0.a(assert.o)
+ .text          0x00000000        0x0 ./libopencm3/lib/libopencm3_stm32g0.a(assert.o)
+ .data          0x00000000        0x0 ./libopencm3/lib/libopencm3_stm32g0.a(assert.o)
+ .bss           0x00000000        0x0 ./libopencm3/lib/libopencm3_stm32g0.a(assert.o)
+ .text.cm3_assert_failed_verbose
+                0x00000000        0x6 ./libopencm3/lib/libopencm3_stm32g0.a(assert.o)
+ .debug_macro   0x00000000      0xaa2 ./libopencm3/lib/libopencm3_stm32g0.a(assert.o)
+ .debug_macro   0x00000000       0x1c ./libopencm3/lib/libopencm3_stm32g0.a(assert.o)
+ .debug_macro   0x00000000       0x22 ./libopencm3/lib/libopencm3_stm32g0.a(assert.o)
+ .debug_macro   0x00000000       0x56 ./libopencm3/lib/libopencm3_stm32g0.a(assert.o)
+ .debug_macro   0x00000000       0x51 ./libopencm3/lib/libopencm3_stm32g0.a(assert.o)
+ .debug_macro   0x00000000      0x103 ./libopencm3/lib/libopencm3_stm32g0.a(assert.o)
+ .debug_macro   0x00000000       0x6a ./libopencm3/lib/libopencm3_stm32g0.a(assert.o)
+ .debug_macro   0x00000000      0x1df ./libopencm3/lib/libopencm3_stm32g0.a(assert.o)
+ .debug_macro   0x00000000       0x22 ./libopencm3/lib/libopencm3_stm32g0.a(assert.o)
+ .debug_macro   0x00000000       0xe8 ./libopencm3/lib/libopencm3_stm32g0.a(assert.o)
+ .group         0x00000000        0xc ./libopencm3/lib/libopencm3_stm32g0.a(flash_common_all.o)
+ .group         0x00000000        0xc ./libopencm3/lib/libopencm3_stm32g0.a(flash_common_all.o)
+ .group         0x00000000        0xc ./libopencm3/lib/libopencm3_stm32g0.a(flash_common_all.o)
+ .group         0x00000000        0xc ./libopencm3/lib/libopencm3_stm32g0.a(flash_common_all.o)
+ .group         0x00000000        0xc ./libopencm3/lib/libopencm3_stm32g0.a(flash_common_all.o)
+ .group         0x00000000        0xc ./libopencm3/lib/libopencm3_stm32g0.a(flash_common_all.o)
+ .group         0x00000000        0xc ./libopencm3/lib/libopencm3_stm32g0.a(flash_common_all.o)
+ .group         0x00000000        0xc ./libopencm3/lib/libopencm3_stm32g0.a(flash_common_all.o)
+ .group         0x00000000        0xc ./libopencm3/lib/libopencm3_stm32g0.a(flash_common_all.o)
+ .group         0x00000000        0xc ./libopencm3/lib/libopencm3_stm32g0.a(flash_common_all.o)
+ .group         0x00000000        0xc ./libopencm3/lib/libopencm3_stm32g0.a(flash_common_all.o)
+ .group         0x00000000        0xc ./libopencm3/lib/libopencm3_stm32g0.a(flash_common_all.o)
+ .group         0x00000000        0xc ./libopencm3/lib/libopencm3_stm32g0.a(flash_common_all.o)
+ .text          0x00000000        0x0 ./libopencm3/lib/libopencm3_stm32g0.a(flash_common_all.o)
+ .data          0x00000000        0x0 ./libopencm3/lib/libopencm3_stm32g0.a(flash_common_all.o)
+ .bss           0x00000000        0x0 ./libopencm3/lib/libopencm3_stm32g0.a(flash_common_all.o)
+ .text.flash_unlock_option_bytes
+                0x00000000       0x18 ./libopencm3/lib/libopencm3_stm32g0.a(flash_common_all.o)
+ .debug_macro   0x00000000      0xaa2 ./libopencm3/lib/libopencm3_stm32g0.a(flash_common_all.o)
+ .debug_macro   0x00000000       0x1c ./libopencm3/lib/libopencm3_stm32g0.a(flash_common_all.o)
+ .debug_macro   0x00000000       0x22 ./libopencm3/lib/libopencm3_stm32g0.a(flash_common_all.o)
+ .debug_macro   0x00000000       0x56 ./libopencm3/lib/libopencm3_stm32g0.a(flash_common_all.o)
+ .debug_macro   0x00000000       0x51 ./libopencm3/lib/libopencm3_stm32g0.a(flash_common_all.o)
+ .debug_macro   0x00000000      0x103 ./libopencm3/lib/libopencm3_stm32g0.a(flash_common_all.o)
+ .debug_macro   0x00000000       0x6a ./libopencm3/lib/libopencm3_stm32g0.a(flash_common_all.o)
+ .debug_macro   0x00000000      0x1df ./libopencm3/lib/libopencm3_stm32g0.a(flash_common_all.o)
+ .debug_macro   0x00000000       0x22 ./libopencm3/lib/libopencm3_stm32g0.a(flash_common_all.o)
+ .debug_macro   0x00000000       0xe8 ./libopencm3/lib/libopencm3_stm32g0.a(flash_common_all.o)
+ .debug_macro   0x00000000       0x52 ./libopencm3/lib/libopencm3_stm32g0.a(flash_common_all.o)
+ .debug_macro   0x00000000      0x1d2 ./libopencm3/lib/libopencm3_stm32g0.a(flash_common_all.o)
+ .debug_macro   0x00000000      0x282 ./libopencm3/lib/libopencm3_stm32g0.a(flash_common_all.o)
+ .group         0x00000000        0xc ./libopencm3/lib/libopencm3_stm32g0.a(pwr.o)
+ .group         0x00000000        0xc ./libopencm3/lib/libopencm3_stm32g0.a(pwr.o)
+ .group         0x00000000        0xc ./libopencm3/lib/libopencm3_stm32g0.a(pwr.o)
+ .group         0x00000000        0xc ./libopencm3/lib/libopencm3_stm32g0.a(pwr.o)
+ .group         0x00000000        0xc ./libopencm3/lib/libopencm3_stm32g0.a(pwr.o)
+ .group         0x00000000        0xc ./libopencm3/lib/libopencm3_stm32g0.a(pwr.o)
+ .group         0x00000000        0xc ./libopencm3/lib/libopencm3_stm32g0.a(pwr.o)
+ .group         0x00000000        0xc ./libopencm3/lib/libopencm3_stm32g0.a(pwr.o)
+ .group         0x00000000        0xc ./libopencm3/lib/libopencm3_stm32g0.a(pwr.o)
+ .group         0x00000000        0xc ./libopencm3/lib/libopencm3_stm32g0.a(pwr.o)
+ .group         0x00000000        0xc ./libopencm3/lib/libopencm3_stm32g0.a(pwr.o)
+ .group         0x00000000        0xc ./libopencm3/lib/libopencm3_stm32g0.a(pwr.o)
+ .group         0x00000000        0xc ./libopencm3/lib/libopencm3_stm32g0.a(pwr.o)
+ .text          0x00000000        0x0 ./libopencm3/lib/libopencm3_stm32g0.a(pwr.o)
+ .data          0x00000000        0x0 ./libopencm3/lib/libopencm3_stm32g0.a(pwr.o)
+ .bss           0x00000000        0x0 ./libopencm3/lib/libopencm3_stm32g0.a(pwr.o)
+ .text.pwr_disable_backup_domain_write_protect
+                0x00000000       0x14 ./libopencm3/lib/libopencm3_stm32g0.a(pwr.o)
+ .text.pwr_enable_backup_domain_write_protect
+                0x00000000       0x14 ./libopencm3/lib/libopencm3_stm32g0.a(pwr.o)
+ .text.pwr_set_low_power_mode_selection
+                0x00000000       0x14 ./libopencm3/lib/libopencm3_stm32g0.a(pwr.o)
+ .text.pwr_enable_power_voltage_detect
+                0x00000000       0x20 ./libopencm3/lib/libopencm3_stm32g0.a(pwr.o)
+ .text.pwr_disable_power_voltage_detect
+                0x00000000       0x10 ./libopencm3/lib/libopencm3_stm32g0.a(pwr.o)
+ .debug_macro   0x00000000      0xaa2 ./libopencm3/lib/libopencm3_stm32g0.a(pwr.o)
+ .debug_macro   0x00000000       0x1c ./libopencm3/lib/libopencm3_stm32g0.a(pwr.o)
+ .debug_macro   0x00000000       0x22 ./libopencm3/lib/libopencm3_stm32g0.a(pwr.o)
+ .debug_macro   0x00000000       0x56 ./libopencm3/lib/libopencm3_stm32g0.a(pwr.o)
+ .debug_macro   0x00000000       0x51 ./libopencm3/lib/libopencm3_stm32g0.a(pwr.o)
+ .debug_macro   0x00000000      0x103 ./libopencm3/lib/libopencm3_stm32g0.a(pwr.o)
+ .debug_macro   0x00000000       0x6a ./libopencm3/lib/libopencm3_stm32g0.a(pwr.o)
+ .debug_macro   0x00000000      0x1df ./libopencm3/lib/libopencm3_stm32g0.a(pwr.o)
+ .debug_macro   0x00000000       0x22 ./libopencm3/lib/libopencm3_stm32g0.a(pwr.o)
+ .debug_macro   0x00000000       0xe8 ./libopencm3/lib/libopencm3_stm32g0.a(pwr.o)
+ .debug_macro   0x00000000       0x52 ./libopencm3/lib/libopencm3_stm32g0.a(pwr.o)
+ .debug_macro   0x00000000      0x1d2 ./libopencm3/lib/libopencm3_stm32g0.a(pwr.o)
+ .debug_macro   0x00000000      0x225 ./libopencm3/lib/libopencm3_stm32g0.a(pwr.o)
+ .text          0x00000000        0x0 /usr/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(libc_a-memset.o)
+ .data          0x00000000        0x0 /usr/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(libc_a-memset.o)
+ .bss           0x00000000        0x0 /usr/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(libc_a-memset.o)
+ .text          0x00000000        0x0 /usr/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(libc_a-memcpy-stub.o)
+ .data          0x00000000        0x0 /usr/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(libc_a-memcpy-stub.o)
+ .bss           0x00000000        0x0 /usr/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(libc_a-memcpy-stub.o)
+ .data          0x00000000        0x0 /usr/lib/gcc/arm-none-eabi/13.2.0/thumb/v6-m/nofp/libgcc.a(_thumb1_case_uqi.o)
+ .bss           0x00000000        0x0 /usr/lib/gcc/arm-none-eabi/13.2.0/thumb/v6-m/nofp/libgcc.a(_thumb1_case_uqi.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+ram              0x20000000         0x00009000         xrw
+rom              0x08000000         0x00020000         xr
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD ./src/main.o
+LOAD ./FreeRTOS/FreeRTOS-Kernel/croutine.o
+LOAD ./FreeRTOS/FreeRTOS-Kernel/event_groups.o
+LOAD ./FreeRTOS/FreeRTOS-Kernel/list.o
+LOAD ./FreeRTOS/FreeRTOS-Kernel/queue.o
+LOAD ./FreeRTOS/FreeRTOS-Kernel/stream_buffer.o
+LOAD ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+LOAD ./FreeRTOS/FreeRTOS-Kernel/timers.o
+LOAD ./FreeRTOS/ports/stm32g0/heap_4.o
+LOAD ./FreeRTOS/ports/stm32g0/port.o
+LOAD ./libopencm3/lib/libopencm3_stm32g0.a
+START GROUP
+LOAD /usr/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a
+LOAD /usr/lib/gcc/arm-none-eabi/13.2.0/thumb/v6-m/nofp/libgcc.a
+LOAD /usr/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libnosys.a
+END GROUP
+START GROUP
+LOAD /usr/lib/gcc/arm-none-eabi/13.2.0/thumb/v6-m/nofp/libgcc.a
+LOAD /usr/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a
+LOAD /usr/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a
+END GROUP
+
+.text           0x08000000     0x19f0
+ *(.vectors)
+ .vectors       0x08000000       0xc0 ./libopencm3/lib/libopencm3_stm32g0.a(vector.o)
+                0x08000000                vector_table
+ *(.text*)
+ .text.task1    0x080000c0       0x24 ./src/main.o
+ .text.main     0x080000e4       0x4c ./src/main.o
+                0x080000e4                main
+ .text.vListInitialise
+                0x08000130       0x16 ./FreeRTOS/FreeRTOS-Kernel/list.o
+                0x08000130                vListInitialise
+ .text.vListInitialiseItem
+                0x08000146        0x6 ./FreeRTOS/FreeRTOS-Kernel/list.o
+                0x08000146                vListInitialiseItem
+ .text.vListInsert
+                0x0800014c       0x2e ./FreeRTOS/FreeRTOS-Kernel/list.o
+                0x0800014c                vListInsert
+ .text.uxListRemove
+                0x0800017a       0x26 ./FreeRTOS/FreeRTOS-Kernel/list.o
+                0x0800017a                uxListRemove
+ .text.prvIsQueueEmpty
+                0x080001a0       0x1c ./FreeRTOS/FreeRTOS-Kernel/queue.o
+ .text.prvCopyDataFromQueue
+                0x080001bc       0x24 ./FreeRTOS/FreeRTOS-Kernel/queue.o
+ .text.prvUnlockQueue
+                0x080001e0       0x72 ./FreeRTOS/FreeRTOS-Kernel/queue.o
+ .text.xQueueGenericReset
+                0x08000252       0xb8 ./FreeRTOS/FreeRTOS-Kernel/queue.o
+                0x08000252                xQueueGenericReset
+ .text.prvInitialiseNewQueue
+                0x0800030a       0x22 ./FreeRTOS/FreeRTOS-Kernel/queue.o
+ .text.xQueueGenericCreate
+                0x0800032c       0x7e ./FreeRTOS/FreeRTOS-Kernel/queue.o
+                0x0800032c                xQueueGenericCreate
+ .text.xQueueReceive
+                0x080003aa       0xee ./FreeRTOS/FreeRTOS-Kernel/queue.o
+                0x080003aa                xQueueReceive
+ .text.vQueueAddToRegistry
+                0x08000498       0x48 ./FreeRTOS/FreeRTOS-Kernel/queue.o
+                0x08000498                vQueueAddToRegistry
+ .text.vQueueWaitForMessageRestricted
+                0x080004e0       0x50 ./FreeRTOS/FreeRTOS-Kernel/queue.o
+                0x080004e0                vQueueWaitForMessageRestricted
+ .text.prvResetNextTaskUnblockTime
+                0x08000530       0x2c ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+ .text.prvDeleteTCB
+                0x0800055c       0x12 ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+ *fill*         0x0800056e        0x2 
+ .text.prvInitialiseNewTask
+                0x08000570       0x98 ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+ .text.prvInitialiseTaskLists
+                0x08000608       0x68 ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+ .text.prvAddNewTaskToReadyList
+                0x08000670       0xc4 ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+ .text.prvCheckTasksWaitingTermination
+                0x08000734       0x44 ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+ .text.prvIdleTask
+                0x08000778       0x18 ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+ .text.prvAddCurrentTaskToDelayedList
+                0x08000790       0x94 ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+ .text.xTaskCreate
+                0x08000824       0x62 ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+                0x08000824                xTaskCreate
+ *fill*         0x08000886        0x2 
+ .text.vTaskStartScheduler
+                0x08000888       0x64 ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+                0x08000888                vTaskStartScheduler
+ .text.vTaskSuspendAll
+                0x080008ec       0x10 ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+                0x080008ec                vTaskSuspendAll
+ .text.xTaskGetTickCount
+                0x080008fc        0xc ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+                0x080008fc                xTaskGetTickCount
+ .text.xTaskIncrementTick
+                0x08000908      0x158 ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+                0x08000908                xTaskIncrementTick
+ .text.xTaskResumeAll
+                0x08000a60      0x134 ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+                0x08000a60                xTaskResumeAll
+ .text.vTaskSwitchContext
+                0x08000b94       0x88 ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+                0x08000b94                vTaskSwitchContext
+ .text.vTaskPlaceOnEventList
+                0x08000c1c       0x1c ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+                0x08000c1c                vTaskPlaceOnEventList
+ .text.vTaskPlaceOnEventListRestricted
+                0x08000c38       0x40 ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+                0x08000c38                vTaskPlaceOnEventListRestricted
+ .text.xTaskRemoveFromEventList
+                0x08000c78       0xe0 ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+                0x08000c78                xTaskRemoveFromEventList
+ .text.vTaskInternalSetTimeOutState
+                0x08000d58       0x18 ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+                0x08000d58                vTaskInternalSetTimeOutState
+ .text.xTaskCheckForTimeOut
+                0x08000d70       0x5c ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+                0x08000d70                xTaskCheckForTimeOut
+ .text.vTaskMissedYield
+                0x08000dcc        0xc ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+                0x08000dcc                vTaskMissedYield
+ .text.prvGetNextExpireTime
+                0x08000dd8       0x24 ./FreeRTOS/FreeRTOS-Kernel/timers.o
+ .text.prvInsertTimerInActiveList
+                0x08000dfc       0x48 ./FreeRTOS/FreeRTOS-Kernel/timers.o
+ .text.prvReloadTimer
+                0x08000e44       0x28 ./FreeRTOS/FreeRTOS-Kernel/timers.o
+ .text.prvProcessExpiredTimer
+                0x08000e6c       0x3c ./FreeRTOS/FreeRTOS-Kernel/timers.o
+ .text.prvSwitchTimerLists
+                0x08000ea8       0x30 ./FreeRTOS/FreeRTOS-Kernel/timers.o
+ .text.prvSampleTimeNow
+                0x08000ed8       0x2c ./FreeRTOS/FreeRTOS-Kernel/timers.o
+ .text.prvProcessTimerOrBlockTask
+                0x08000f04       0x70 ./FreeRTOS/FreeRTOS-Kernel/timers.o
+ .text.prvProcessReceivedCommands
+                0x08000f74       0xd0 ./FreeRTOS/FreeRTOS-Kernel/timers.o
+ .text.prvTimerTask
+                0x08001044       0x16 ./FreeRTOS/FreeRTOS-Kernel/timers.o
+ *fill*         0x0800105a        0x2 
+ .text.prvCheckForValidListAndQueue
+                0x0800105c       0x60 ./FreeRTOS/FreeRTOS-Kernel/timers.o
+ .text.xTimerCreateTimerTask
+                0x080010bc       0x3c ./FreeRTOS/FreeRTOS-Kernel/timers.o
+                0x080010bc                xTimerCreateTimerTask
+ .text.prvHeapInit
+                0x080010f8       0x64 ./FreeRTOS/ports/stm32g0/heap_4.o
+ .text.prvInsertBlockIntoFreeList
+                0x0800115c       0x54 ./FreeRTOS/ports/stm32g0/heap_4.o
+ .text.pvPortMalloc
+                0x080011b0       0xe4 ./FreeRTOS/ports/stm32g0/heap_4.o
+                0x080011b0                pvPortMalloc
+ .text.vPortFree
+                0x08001294       0x50 ./FreeRTOS/ports/stm32g0/heap_4.o
+                0x08001294                vPortFree
+ .text.prvTaskExitError
+                0x080012e4       0x12 ./FreeRTOS/ports/stm32g0/port.o
+ *fill*         0x080012f6        0xa 
+ .text.vPortStartFirstTask
+                0x08001300       0x34 ./FreeRTOS/ports/stm32g0/port.o
+ .text.pxPortInitialiseStack
+                0x08001334       0x24 ./FreeRTOS/ports/stm32g0/port.o
+                0x08001334                pxPortInitialiseStack
+ .text.vPortYield
+                0x08001358       0x18 ./FreeRTOS/ports/stm32g0/port.o
+                0x08001358                vPortYield
+ .text.vPortEnterCritical
+                0x08001370       0x18 ./FreeRTOS/ports/stm32g0/port.o
+                0x08001370                vPortEnterCritical
+ .text.vPortExitCritical
+                0x08001388       0x14 ./FreeRTOS/ports/stm32g0/port.o
+                0x08001388                vPortExitCritical
+ .text.vPortSetupTimerInterrupt
+                0x0800139c       0x28 ./FreeRTOS/ports/stm32g0/port.o
+                0x0800139c                vPortSetupTimerInterrupt
+ .text.xPortStartScheduler
+                0x080013c4       0x3c ./FreeRTOS/ports/stm32g0/port.o
+                0x080013c4                xPortStartScheduler
+ .text.gpio_toggle
+                0x08001400       0x10 ./libopencm3/lib/libopencm3_stm32g0.a(gpio_common_all.o)
+                0x08001400                gpio_toggle
+ .text.gpio_mode_setup
+                0x08001410       0x40 ./libopencm3/lib/libopencm3_stm32g0.a(gpio_common_f0234.o)
+                0x08001410                gpio_mode_setup
+ .text.rcc_osc_on
+                0x08001450       0x50 ./libopencm3/lib/libopencm3_stm32g0.a(rcc.o)
+                0x08001450                rcc_osc_on
+ .text.rcc_osc_off
+                0x080014a0       0x58 ./libopencm3/lib/libopencm3_stm32g0.a(rcc.o)
+                0x080014a0                rcc_osc_off
+ .text.rcc_is_osc_ready
+                0x080014f8       0x4c ./libopencm3/lib/libopencm3_stm32g0.a(rcc.o)
+                0x080014f8                rcc_is_osc_ready
+ .text.rcc_wait_for_osc_ready
+                0x08001544       0x10 ./libopencm3/lib/libopencm3_stm32g0.a(rcc.o)
+                0x08001544                rcc_wait_for_osc_ready
+ .text.rcc_set_sysclk_source
+                0x08001554       0x24 ./libopencm3/lib/libopencm3_stm32g0.a(rcc.o)
+                0x08001554                rcc_set_sysclk_source
+ .text.rcc_wait_for_sysclk_status
+                0x08001578       0x28 ./libopencm3/lib/libopencm3_stm32g0.a(rcc.o)
+                0x08001578                rcc_wait_for_sysclk_status
+ .text.rcc_set_main_pll
+                0x080015a0       0x24 ./libopencm3/lib/libopencm3_stm32g0.a(rcc.o)
+                0x080015a0                rcc_set_main_pll
+ .text.rcc_set_ppre
+                0x080015c4       0x18 ./libopencm3/lib/libopencm3_stm32g0.a(rcc.o)
+                0x080015c4                rcc_set_ppre
+ .text.rcc_set_hpre
+                0x080015dc       0x18 ./libopencm3/lib/libopencm3_stm32g0.a(rcc.o)
+                0x080015dc                rcc_set_hpre
+ .text.rcc_set_hsisys_div
+                0x080015f4       0x18 ./libopencm3/lib/libopencm3_stm32g0.a(rcc.o)
+                0x080015f4                rcc_set_hsisys_div
+ .text.rcc_clock_setup
+                0x0800160c       0xc8 ./libopencm3/lib/libopencm3_stm32g0.a(rcc.o)
+                0x0800160c                rcc_clock_setup
+ .text.rcc_periph_clock_enable
+                0x080016d4       0x1c ./libopencm3/lib/libopencm3_stm32g0.a(rcc_common_all.o)
+                0x080016d4                rcc_periph_clock_enable
+ .text.blocking_handler
+                0x080016f0        0x2 ./libopencm3/lib/libopencm3_stm32g0.a(vector.o)
+                0x080016f0                rtc_isr
+                0x080016f0                blocking_handler
+                0x080016f0                cec_isr
+                0x080016f0                spi1_isr
+                0x080016f0                tim6_dac_lptim1_isr
+                0x080016f0                i2c23_isr
+                0x080016f0                i2c1_isr
+                0x080016f0                dma1_channel4_7_dmamux_isr
+                0x080016f0                usart1_isr
+                0x080016f0                tim1_cc_isr
+                0x080016f0                exti2_3_isr
+                0x080016f0                pvd_isr
+                0x080016f0                rcc_isr
+                0x080016f0                flash_isr
+                0x080016f0                hard_fault_handler
+                0x080016f0                tim14_isr
+                0x080016f0                usart2_lpuart2_isr
+                0x080016f0                tim15_isr
+                0x080016f0                spi23_isr
+                0x080016f0                tim16_fdcan_it0_isr
+                0x080016f0                adc_comp_isr
+                0x080016f0                dma1_channel1_isr
+                0x080016f0                tim7_lptim2_isr
+                0x080016f0                tim34_isr
+                0x080016f0                tim1_brk_up_trg_com_isr
+                0x080016f0                dma1_channel2_3_isr
+                0x080016f0                exti4_15_isr
+                0x080016f0                usart3456_lpuart1_isr
+                0x080016f0                wwdg_isr
+                0x080016f0                aes_rng_isr
+                0x080016f0                ucpd1_ucpd2_isr
+                0x080016f0                tim17_fdcan_it1_isr
+                0x080016f0                tim2_isr
+                0x080016f0                exti0_1_isr
+ .text.null_handler
+                0x080016f2        0x2 ./libopencm3/lib/libopencm3_stm32g0.a(vector.o)
+                0x080016f2                null_handler
+                0x080016f2                sv_call_handler
+                0x080016f2                pend_sv_handler
+                0x080016f2                sys_tick_handler
+                0x080016f2                nmi_handler
+ .text.reset_handler
+                0x080016f4       0x88 ./libopencm3/lib/libopencm3_stm32g0.a(vector.o)
+                0x080016f4                reset_handler
+ .text.cm3_assert_failed
+                0x0800177c        0x2 ./libopencm3/lib/libopencm3_stm32g0.a(assert.o)
+                0x0800177c                cm3_assert_failed
+ *fill*         0x0800177e        0x2 
+ .text.flash_prefetch_enable
+                0x08001780       0x14 ./libopencm3/lib/libopencm3_stm32g0.a(flash_common_all.o)
+                0x08001780                flash_prefetch_enable
+ .text.flash_prefetch_disable
+                0x08001794       0x14 ./libopencm3/lib/libopencm3_stm32g0.a(flash_common_all.o)
+                0x08001794                flash_prefetch_disable
+ .text.flash_set_ws
+                0x080017a8       0x14 ./libopencm3/lib/libopencm3_stm32g0.a(flash_common_all.o)
+                0x080017a8                flash_set_ws
+ .text.pwr_set_vos_scale
+                0x080017bc       0x20 ./libopencm3/lib/libopencm3_stm32g0.a(pwr.o)
+                0x080017bc                pwr_set_vos_scale
+ .text.memset   0x080017dc       0xa8 /usr/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(libc_a-memset.o)
+                0x080017dc                memset
+ .text.memcpy   0x08001884       0x90 /usr/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(libc_a-memcpy-stub.o)
+                0x08001884                memcpy
+ .text          0x08001914       0x14 /usr/lib/gcc/arm-none-eabi/13.2.0/thumb/v6-m/nofp/libgcc.a(_thumb1_case_uqi.o)
+                0x08001914                __gnu_thumb1_case_uqi
+                0x08001928                        . = ALIGN (0x4)
+ *(.rodata*)
+ .rodata.main.str1.4
+                0x08001928       0x1c ./src/main.o
+                                  0x4 (size before relaxing)
+ .rodata.vTaskStartScheduler.str1.4
+                0x08001944        0x5 ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+ .rodata.uxTopUsedPriority
+                0x08001944        0x4 ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+                0x08001944                uxTopUsedPriority
+ .rodata.prvProcessReceivedCommands
+                0x08001948       0x28 ./FreeRTOS/FreeRTOS-Kernel/timers.o
+ .rodata.prvCheckForValidListAndQueue.str1.4
+                0x08001970        0x5 ./FreeRTOS/FreeRTOS-Kernel/timers.o
+ .rodata.xTimerCreateTimerTask.str1.4
+                0x08001970        0x8 ./FreeRTOS/FreeRTOS-Kernel/timers.o
+ .rodata.CSWTCH.13
+                0x08001970        0x5 ./libopencm3/lib/libopencm3_stm32g0.a(rcc.o)
+ *fill*         0x08001975        0x3 
+ .rodata.rcc_clock_config
+                0x08001978       0x78 ./libopencm3/lib/libopencm3_stm32g0.a(rcc.o)
+                0x08001978                rcc_clock_config
+                0x080019f0                        . = ALIGN (0x4)
+
+.glue_7         0x080019f0        0x0
+ .glue_7        0x080019f0        0x0 linker stubs
+
+.glue_7t        0x080019f0        0x0
+ .glue_7t       0x080019f0        0x0 linker stubs
+
+.vfp11_veneer   0x080019f0        0x0
+ .vfp11_veneer  0x080019f0        0x0 linker stubs
+
+.v4_bx          0x080019f0        0x0
+ .v4_bx         0x080019f0        0x0 linker stubs
+
+.iplt           0x080019f0        0x0
+ .iplt          0x080019f0        0x0 ./src/main.o
+
+.rel.dyn        0x080019f0        0x0
+ .rel.iplt      0x080019f0        0x0 ./src/main.o
+
+.preinit_array  0x080019f0        0x0
+                0x080019f0                        . = ALIGN (0x4)
+                0x080019f0                        __preinit_array_start = .
+ *(.preinit_array)
+                0x080019f0                        __preinit_array_end = .
+
+.init_array     0x080019f0        0x0
+                0x080019f0                        . = ALIGN (0x4)
+                0x080019f0                        __init_array_start = .
+ *(SORT_BY_NAME(.init_array.*))
+ *(.init_array)
+                0x080019f0                        __init_array_end = .
+
+.fini_array     0x080019f0        0x0
+                0x080019f0                        . = ALIGN (0x4)
+                0x080019f0                        __fini_array_start = .
+ *(.fini_array)
+ *(SORT_BY_NAME(.fini_array.*))
+                0x080019f0                        __fini_array_end = .
+
+.ARM.extab
+ *(.ARM.extab*)
+
+.ARM.exidx      0x080019f0        0x0
+                0x080019f0                        __exidx_start = .
+ *(.ARM.exidx*)
+                0x080019f0                        __exidx_end = .
+                0x080019f0                        . = ALIGN (0x4)
+                0x080019f0                        _etext = .
+
+.noinit
+ *(.noinit*)
+                0x080019f0                        . = ALIGN (0x4)
+
+.data           0x20000000        0xc load address 0x080019f0
+                0x20000000                        _data = .
+ *(.data*)
+ .data.uxCriticalNesting
+                0x20000000        0x4 ./FreeRTOS/ports/stm32g0/port.o
+ .data.rcc_apb1_frequency
+                0x20000004        0x4 ./libopencm3/lib/libopencm3_stm32g0.a(rcc.o)
+                0x20000004                rcc_apb1_frequency
+ .data.rcc_ahb_frequency
+                0x20000008        0x4 ./libopencm3/lib/libopencm3_stm32g0.a(rcc.o)
+                0x20000008                rcc_ahb_frequency
+ *(.ramtext*)
+                0x2000000c                        . = ALIGN (0x4)
+                0x2000000c                        _edata = .
+                0x080019f0                        _data_loadaddr = LOADADDR (.data)
+
+.igot.plt       0x2000000c        0x0 load address 0x080019fc
+ .igot.plt      0x2000000c        0x0 ./src/main.o
+
+.bss            0x2000000c     0x29a0 load address 0x080019fc
+ *(.bss*)
+ .bss.xQueueRegistry
+                0x2000000c       0x40 ./FreeRTOS/FreeRTOS-Kernel/queue.o
+                0x2000000c                xQueueRegistry
+ .bss.uxSchedulerSuspended
+                0x2000004c        0x4 ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+ .bss.xIdleTaskHandle
+                0x20000050        0x4 ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+ .bss.xNextTaskUnblockTime
+                0x20000054        0x4 ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+ .bss.uxTaskNumber
+                0x20000058        0x4 ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+ .bss.xNumOfOverflows
+                0x2000005c        0x4 ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+ .bss.xYieldPending
+                0x20000060        0x4 ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+ .bss.xPendedTicks
+                0x20000064        0x4 ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+ .bss.xSchedulerRunning
+                0x20000068        0x4 ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+ .bss.uxTopReadyPriority
+                0x2000006c        0x4 ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+ .bss.xTickCount
+                0x20000070        0x4 ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+ .bss.uxCurrentNumberOfTasks
+                0x20000074        0x4 ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+ .bss.xSuspendedTaskList
+                0x20000078       0x14 ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+ .bss.uxDeletedTasksWaitingCleanUp
+                0x2000008c        0x4 ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+ .bss.xTasksWaitingTermination
+                0x20000090       0x14 ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+ .bss.xPendingReadyList
+                0x200000a4       0x14 ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+ .bss.pxOverflowDelayedTaskList
+                0x200000b8        0x4 ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+ .bss.pxDelayedTaskList
+                0x200000bc        0x4 ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+ .bss.xDelayedTaskList2
+                0x200000c0       0x14 ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+ .bss.xDelayedTaskList1
+                0x200000d4       0x14 ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+ .bss.pxReadyTasksLists
+                0x200000e8       0x64 ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+ .bss.pxCurrentTCB
+                0x2000014c        0x4 ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+                0x2000014c                pxCurrentTCB
+ .bss.xLastTime.0
+                0x20000150        0x4 ./FreeRTOS/FreeRTOS-Kernel/timers.o
+ .bss.xTimerTaskHandle
+                0x20000154        0x4 ./FreeRTOS/FreeRTOS-Kernel/timers.o
+ .bss.xTimerQueue
+                0x20000158        0x4 ./FreeRTOS/FreeRTOS-Kernel/timers.o
+ .bss.pxOverflowTimerList
+                0x2000015c        0x4 ./FreeRTOS/FreeRTOS-Kernel/timers.o
+ .bss.pxCurrentTimerList
+                0x20000160        0x4 ./FreeRTOS/FreeRTOS-Kernel/timers.o
+ .bss.xActiveTimerList2
+                0x20000164       0x14 ./FreeRTOS/FreeRTOS-Kernel/timers.o
+ .bss.xActiveTimerList1
+                0x20000178       0x14 ./FreeRTOS/FreeRTOS-Kernel/timers.o
+ .bss.xBlockAllocatedBit
+                0x2000018c        0x4 ./FreeRTOS/ports/stm32g0/heap_4.o
+ .bss.xNumberOfSuccessfulFrees
+                0x20000190        0x4 ./FreeRTOS/ports/stm32g0/heap_4.o
+ .bss.xNumberOfSuccessfulAllocations
+                0x20000194        0x4 ./FreeRTOS/ports/stm32g0/heap_4.o
+ .bss.xMinimumEverFreeBytesRemaining
+                0x20000198        0x4 ./FreeRTOS/ports/stm32g0/heap_4.o
+ .bss.xFreeBytesRemaining
+                0x2000019c        0x4 ./FreeRTOS/ports/stm32g0/heap_4.o
+ .bss.pxEnd     0x200001a0        0x4 ./FreeRTOS/ports/stm32g0/heap_4.o
+ .bss.xStart    0x200001a4        0x8 ./FreeRTOS/ports/stm32g0/heap_4.o
+ .bss.ucHeap    0x200001ac     0x2800 ./FreeRTOS/ports/stm32g0/heap_4.o
+ *(COMMON)
+                0x200029ac                        . = ALIGN (0x4)
+                0x200029ac                        _ebss = .
+
+/DISCARD/
+ *(.eh_frame)
+                0x200029ac                        . = ALIGN (0x4)
+                0x200029ac                        end = .
+                0x20009000                        PROVIDE (_stack = (ORIGIN (ram) + LENGTH (ram)))
+OUTPUT(target.elf elf32-littlearm)
+LOAD linker stubs
+
+.debug_info     0x00000000     0x8d43
+ .debug_info    0x00000000      0x719 ./src/main.o
+ .debug_info    0x00000719      0x2bc ./FreeRTOS/FreeRTOS-Kernel/list.o
+ .debug_info    0x000009d5     0x1dda ./FreeRTOS/FreeRTOS-Kernel/queue.o
+ .debug_info    0x000027af     0x296c ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+ .debug_info    0x0000511b     0x11e6 ./FreeRTOS/FreeRTOS-Kernel/timers.o
+ .debug_info    0x00006301      0x4fa ./FreeRTOS/ports/stm32g0/heap_4.o
+ .debug_info    0x000067fb      0x2d7 ./FreeRTOS/ports/stm32g0/port.o
+ .debug_info    0x00006ad2      0x256 ./libopencm3/lib/libopencm3_stm32g0.a(gpio_common_all.o)
+ .debug_info    0x00006d28      0x23e ./libopencm3/lib/libopencm3_stm32g0.a(gpio_common_f0234.o)
+ .debug_info    0x00006f66      0xd8f ./libopencm3/lib/libopencm3_stm32g0.a(rcc.o)
+ .debug_info    0x00007cf5      0x74f ./libopencm3/lib/libopencm3_stm32g0.a(rcc_common_all.o)
+ .debug_info    0x00008444      0x2c3 ./libopencm3/lib/libopencm3_stm32g0.a(vector.o)
+ .debug_info    0x00008707      0x101 ./libopencm3/lib/libopencm3_stm32g0.a(assert.o)
+ .debug_info    0x00008808       0xf1 ./libopencm3/lib/libopencm3_stm32g0.a(flash_common_all.o)
+ .debug_info    0x000088f9      0x192 ./libopencm3/lib/libopencm3_stm32g0.a(pwr.o)
+ .debug_info    0x00008a8b      0x135 /usr/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(libc_a-memset.o)
+ .debug_info    0x00008bc0      0x152 /usr/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(libc_a-memcpy-stub.o)
+ .debug_info    0x00008d12       0x31 /usr/lib/gcc/arm-none-eabi/13.2.0/thumb/v6-m/nofp/libgcc.a(_thumb1_case_uqi.o)
+
+.debug_abbrev   0x00000000     0x1b51
+ .debug_abbrev  0x00000000      0x1cb ./src/main.o
+ .debug_abbrev  0x000001cb      0x10c ./FreeRTOS/FreeRTOS-Kernel/list.o
+ .debug_abbrev  0x000002d7      0x2d8 ./FreeRTOS/FreeRTOS-Kernel/queue.o
+ .debug_abbrev  0x000005af      0x319 ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+ .debug_abbrev  0x000008c8      0x2aa ./FreeRTOS/FreeRTOS-Kernel/timers.o
+ .debug_abbrev  0x00000b72      0x20b ./FreeRTOS/ports/stm32g0/heap_4.o
+ .debug_abbrev  0x00000d7d      0x1d6 ./FreeRTOS/ports/stm32g0/port.o
+ .debug_abbrev  0x00000f53      0x115 ./libopencm3/lib/libopencm3_stm32g0.a(gpio_common_all.o)
+ .debug_abbrev  0x00001068       0xc3 ./libopencm3/lib/libopencm3_stm32g0.a(gpio_common_f0234.o)
+ .debug_abbrev  0x0000112b      0x3b0 ./libopencm3/lib/libopencm3_stm32g0.a(rcc.o)
+ .debug_abbrev  0x000014db      0x174 ./libopencm3/lib/libopencm3_stm32g0.a(rcc_common_all.o)
+ .debug_abbrev  0x0000164f      0x149 ./libopencm3/lib/libopencm3_stm32g0.a(vector.o)
+ .debug_abbrev  0x00001798       0x94 ./libopencm3/lib/libopencm3_stm32g0.a(assert.o)
+ .debug_abbrev  0x0000182c       0x96 ./libopencm3/lib/libopencm3_stm32g0.a(flash_common_all.o)
+ .debug_abbrev  0x000018c2       0xe6 ./libopencm3/lib/libopencm3_stm32g0.a(pwr.o)
+ .debug_abbrev  0x000019a8       0xb7 /usr/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(libc_a-memset.o)
+ .debug_abbrev  0x00001a5f       0xca /usr/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(libc_a-memcpy-stub.o)
+ .debug_abbrev  0x00001b29       0x28 /usr/lib/gcc/arm-none-eabi/13.2.0/thumb/v6-m/nofp/libgcc.a(_thumb1_case_uqi.o)
+
+.debug_loclists
+                0x00000000     0x4e8d
+ .debug_loclists
+                0x00000000       0x3e ./src/main.o
+ .debug_loclists
+                0x0000003e       0x75 ./FreeRTOS/FreeRTOS-Kernel/list.o
+ .debug_loclists
+                0x000000b3     0x15e2 ./FreeRTOS/FreeRTOS-Kernel/queue.o
+ .debug_loclists
+                0x00001695     0x1bab ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+ .debug_loclists
+                0x00003240      0x9a9 ./FreeRTOS/FreeRTOS-Kernel/timers.o
+ .debug_loclists
+                0x00003be9      0x2c7 ./FreeRTOS/ports/stm32g0/heap_4.o
+ .debug_loclists
+                0x00003eb0       0x8a ./FreeRTOS/ports/stm32g0/port.o
+ .debug_loclists
+                0x00003f3a       0x96 ./libopencm3/lib/libopencm3_stm32g0.a(gpio_common_all.o)
+ .debug_loclists
+                0x00003fd0      0x195 ./libopencm3/lib/libopencm3_stm32g0.a(gpio_common_f0234.o)
+ .debug_loclists
+                0x00004165      0x5f8 ./libopencm3/lib/libopencm3_stm32g0.a(rcc.o)
+ .debug_loclists
+                0x0000475d       0xa4 ./libopencm3/lib/libopencm3_stm32g0.a(rcc_common_all.o)
+ .debug_loclists
+                0x00004801       0xaf ./libopencm3/lib/libopencm3_stm32g0.a(vector.o)
+ .debug_loclists
+                0x000048b0       0x80 ./libopencm3/lib/libopencm3_stm32g0.a(assert.o)
+ .debug_loclists
+                0x00004930       0x17 ./libopencm3/lib/libopencm3_stm32g0.a(flash_common_all.o)
+ .debug_loclists
+                0x00004947       0xb5 ./libopencm3/lib/libopencm3_stm32g0.a(pwr.o)
+ .debug_loclists
+                0x000049fc      0x1d4 /usr/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(libc_a-memset.o)
+ .debug_loclists
+                0x00004bd0      0x2bd /usr/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(libc_a-memcpy-stub.o)
+
+.debug_aranges  0x00000000      0x888
+ .debug_aranges
+                0x00000000       0x28 ./src/main.o
+ .debug_aranges
+                0x00000028       0x40 ./FreeRTOS/FreeRTOS-Kernel/list.o
+ .debug_aranges
+                0x00000068      0x130 ./FreeRTOS/FreeRTOS-Kernel/queue.o
+ .debug_aranges
+                0x00000198      0x1f8 ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+ .debug_aranges
+                0x00000390       0xe8 ./FreeRTOS/FreeRTOS-Kernel/timers.o
+ .debug_aranges
+                0x00000478       0x58 ./FreeRTOS/ports/stm32g0/heap_4.o
+ .debug_aranges
+                0x000004d0       0x88 ./FreeRTOS/ports/stm32g0/port.o
+ .debug_aranges
+                0x00000558       0x50 ./libopencm3/lib/libopencm3_stm32g0.a(gpio_common_all.o)
+ .debug_aranges
+                0x000005a8       0x30 ./libopencm3/lib/libopencm3_stm32g0.a(gpio_common_f0234.o)
+ .debug_aranges
+                0x000005d8       0xf8 ./libopencm3/lib/libopencm3_stm32g0.a(rcc.o)
+ .debug_aranges
+                0x000006d0       0x80 ./libopencm3/lib/libopencm3_stm32g0.a(rcc_common_all.o)
+ .debug_aranges
+                0x00000750       0x30 ./libopencm3/lib/libopencm3_stm32g0.a(vector.o)
+ .debug_aranges
+                0x00000780       0x28 ./libopencm3/lib/libopencm3_stm32g0.a(assert.o)
+ .debug_aranges
+                0x000007a8       0x38 ./libopencm3/lib/libopencm3_stm32g0.a(flash_common_all.o)
+ .debug_aranges
+                0x000007e0       0x48 ./libopencm3/lib/libopencm3_stm32g0.a(pwr.o)
+ .debug_aranges
+                0x00000828       0x20 /usr/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(libc_a-memset.o)
+ .debug_aranges
+                0x00000848       0x20 /usr/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(libc_a-memcpy-stub.o)
+ .debug_aranges
+                0x00000868       0x20 /usr/lib/gcc/arm-none-eabi/13.2.0/thumb/v6-m/nofp/libgcc.a(_thumb1_case_uqi.o)
+
+.debug_rnglists
+                0x00000000      0x791
+ .debug_rnglists
+                0x00000000       0x19 ./src/main.o
+ .debug_rnglists
+                0x00000019       0x2b ./FreeRTOS/FreeRTOS-Kernel/list.o
+ .debug_rnglists
+                0x00000044      0x13a ./FreeRTOS/FreeRTOS-Kernel/queue.o
+ .debug_rnglists
+                0x0000017e      0x29e ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+ .debug_rnglists
+                0x0000041c       0xaa ./FreeRTOS/FreeRTOS-Kernel/timers.o
+ .debug_rnglists
+                0x000004c6       0x3f ./FreeRTOS/ports/stm32g0/heap_4.o
+ .debug_rnglists
+                0x00000505       0x61 ./FreeRTOS/ports/stm32g0/port.o
+ .debug_rnglists
+                0x00000566       0x37 ./libopencm3/lib/libopencm3_stm32g0.a(gpio_common_all.o)
+ .debug_rnglists
+                0x0000059d       0x1f ./libopencm3/lib/libopencm3_stm32g0.a(gpio_common_f0234.o)
+ .debug_rnglists
+                0x000005bc       0xc3 ./libopencm3/lib/libopencm3_stm32g0.a(rcc.o)
+ .debug_rnglists
+                0x0000067f       0x5b ./libopencm3/lib/libopencm3_stm32g0.a(rcc_common_all.o)
+ .debug_rnglists
+                0x000006da       0x20 ./libopencm3/lib/libopencm3_stm32g0.a(vector.o)
+ .debug_rnglists
+                0x000006fa       0x19 ./libopencm3/lib/libopencm3_stm32g0.a(assert.o)
+ .debug_rnglists
+                0x00000713       0x25 ./libopencm3/lib/libopencm3_stm32g0.a(flash_common_all.o)
+ .debug_rnglists
+                0x00000738       0x31 ./libopencm3/lib/libopencm3_stm32g0.a(pwr.o)
+ .debug_rnglists
+                0x00000769       0x14 /usr/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(libc_a-memset.o)
+ .debug_rnglists
+                0x0000077d       0x14 /usr/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(libc_a-memcpy-stub.o)
+
+.debug_macro    0x00000000     0x52ed
+ .debug_macro   0x00000000      0x16f ./src/main.o
+ .debug_macro   0x0000016f      0xaa8 ./src/main.o
+ .debug_macro   0x00000c17      0x189 ./src/main.o
+ .debug_macro   0x00000da0       0x22 ./src/main.o
+ .debug_macro   0x00000dc2       0x56 ./src/main.o
+ .debug_macro   0x00000e18       0x51 ./src/main.o
+ .debug_macro   0x00000e69      0x103 ./src/main.o
+ .debug_macro   0x00000f6c       0x6a ./src/main.o
+ .debug_macro   0x00000fd6      0x1df ./src/main.o
+ .debug_macro   0x000011b5      0x148 ./src/main.o
+ .debug_macro   0x000012fd      0x15a ./src/main.o
+ .debug_macro   0x00001457       0xb8 ./src/main.o
+ .debug_macro   0x0000150f       0x28 ./src/main.o
+ .debug_macro   0x00001537       0x1f ./src/main.o
+ .debug_macro   0x00001556       0x12 ./src/main.o
+ .debug_macro   0x00001568      0x4fc ./src/main.o
+ .debug_macro   0x00001a64       0xc3 ./src/main.o
+ .debug_macro   0x00001b27      0x120 ./src/main.o
+ .debug_macro   0x00001c47       0x1c ./src/main.o
+ .debug_macro   0x00001c63       0x22 ./src/main.o
+ .debug_macro   0x00001c85       0xe8 ./src/main.o
+ .debug_macro   0x00001d6d       0x52 ./src/main.o
+ .debug_macro   0x00001dbf      0x1d2 ./src/main.o
+ .debug_macro   0x00001f91      0x225 ./src/main.o
+ .debug_macro   0x000021b6      0x9cc ./src/main.o
+ .debug_macro   0x00002b82       0x76 ./src/main.o
+ .debug_macro   0x00002bf8      0x37e ./src/main.o
+ .debug_macro   0x00002f76       0xca ./src/main.o
+ .debug_macro   0x00003040       0x46 ./src/main.o
+ .debug_macro   0x00003086      0x184 ./FreeRTOS/FreeRTOS-Kernel/list.o
+ .debug_macro   0x0000320a      0x202 ./FreeRTOS/FreeRTOS-Kernel/queue.o
+ .debug_macro   0x0000340c       0x16 ./FreeRTOS/FreeRTOS-Kernel/queue.o
+ .debug_macro   0x00003422       0x3c ./FreeRTOS/FreeRTOS-Kernel/queue.o
+ .debug_macro   0x0000345e       0x80 ./FreeRTOS/FreeRTOS-Kernel/queue.o
+ .debug_macro   0x000034de      0x257 ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+ .debug_macro   0x00003735       0x17 ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+ .debug_macro   0x0000374c      0x1d3 ./FreeRTOS/FreeRTOS-Kernel/timers.o
+ .debug_macro   0x0000391f       0x97 ./FreeRTOS/FreeRTOS-Kernel/timers.o
+ .debug_macro   0x000039b6      0x19f ./FreeRTOS/ports/stm32g0/heap_4.o
+ .debug_macro   0x00003b55       0xe2 ./FreeRTOS/ports/stm32g0/port.o
+ .debug_macro   0x00003c37       0x82 ./FreeRTOS/ports/stm32g0/port.o
+ .debug_macro   0x00003cb9       0xd6 ./libopencm3/lib/libopencm3_stm32g0.a(gpio_common_all.o)
+ .debug_macro   0x00003d8f      0xaa2 ./libopencm3/lib/libopencm3_stm32g0.a(gpio_common_all.o)
+ .debug_macro   0x00004831       0xd6 ./libopencm3/lib/libopencm3_stm32g0.a(gpio_common_f0234.o)
+ .debug_macro   0x00004907       0xeb ./libopencm3/lib/libopencm3_stm32g0.a(rcc.o)
+ .debug_macro   0x000049f2      0x282 ./libopencm3/lib/libopencm3_stm32g0.a(rcc.o)
+ .debug_macro   0x00004c74       0x1c ./libopencm3/lib/libopencm3_stm32g0.a(rcc.o)
+ .debug_macro   0x00004c90       0xe1 ./libopencm3/lib/libopencm3_stm32g0.a(rcc_common_all.o)
+ .debug_macro   0x00004d71       0xcf ./libopencm3/lib/libopencm3_stm32g0.a(vector.o)
+ .debug_macro   0x00004e40      0x19f ./libopencm3/lib/libopencm3_stm32g0.a(vector.o)
+ .debug_macro   0x00004fdf       0x49 ./libopencm3/lib/libopencm3_stm32g0.a(vector.o)
+ .debug_macro   0x00005028       0xca ./libopencm3/lib/libopencm3_stm32g0.a(vector.o)
+ .debug_macro   0x000050f2       0x89 ./libopencm3/lib/libopencm3_stm32g0.a(assert.o)
+ .debug_macro   0x0000517b       0x16 ./libopencm3/lib/libopencm3_stm32g0.a(assert.o)
+ .debug_macro   0x00005191       0xb3 ./libopencm3/lib/libopencm3_stm32g0.a(flash_common_all.o)
+ .debug_macro   0x00005244       0xa9 ./libopencm3/lib/libopencm3_stm32g0.a(pwr.o)
+
+.debug_line     0x00000000     0x7e18
+ .debug_line    0x00000000      0x3f7 ./src/main.o
+ .debug_line    0x000003f7      0x49f ./FreeRTOS/FreeRTOS-Kernel/list.o
+ .debug_line    0x00000896     0x14af ./FreeRTOS/FreeRTOS-Kernel/queue.o
+ .debug_line    0x00001d45     0x248b ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+ .debug_line    0x000041d0      0xa91 ./FreeRTOS/FreeRTOS-Kernel/timers.o
+ .debug_line    0x00004c61      0x74e ./FreeRTOS/ports/stm32g0/heap_4.o
+ .debug_line    0x000053af      0x4e7 ./FreeRTOS/ports/stm32g0/port.o
+ .debug_line    0x00005896      0x384 ./libopencm3/lib/libopencm3_stm32g0.a(gpio_common_all.o)
+ .debug_line    0x00005c1a      0x467 ./libopencm3/lib/libopencm3_stm32g0.a(gpio_common_f0234.o)
+ .debug_line    0x00006081      0xa27 ./libopencm3/lib/libopencm3_stm32g0.a(rcc.o)
+ .debug_line    0x00006aa8      0x43b ./libopencm3/lib/libopencm3_stm32g0.a(rcc_common_all.o)
+ .debug_line    0x00006ee3      0x35e ./libopencm3/lib/libopencm3_stm32g0.a(vector.o)
+ .debug_line    0x00007241      0x199 ./libopencm3/lib/libopencm3_stm32g0.a(assert.o)
+ .debug_line    0x000073da      0x2e0 ./libopencm3/lib/libopencm3_stm32g0.a(flash_common_all.o)
+ .debug_line    0x000076ba      0x303 ./libopencm3/lib/libopencm3_stm32g0.a(pwr.o)
+ .debug_line    0x000079bd      0x1ed /usr/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(libc_a-memset.o)
+ .debug_line    0x00007baa      0x21c /usr/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(libc_a-memcpy-stub.o)
+ .debug_line    0x00007dc6       0x52 /usr/lib/gcc/arm-none-eabi/13.2.0/thumb/v6-m/nofp/libgcc.a(_thumb1_case_uqi.o)
+
+.debug_str      0x00000000    0x17c85
+ .debug_str     0x00000000    0x17c85 ./src/main.o
+                               0xeae9 (size before relaxing)
+ .debug_str     0x00017c85     0xa7f7 ./FreeRTOS/FreeRTOS-Kernel/list.o
+ .debug_str     0x00017c85     0xce41 ./FreeRTOS/FreeRTOS-Kernel/queue.o
+ .debug_str     0x00017c85     0xd802 ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+ .debug_str     0x00017c85     0xd062 ./FreeRTOS/FreeRTOS-Kernel/timers.o
+ .debug_str     0x00017c85     0xbc96 ./FreeRTOS/ports/stm32g0/heap_4.o
+ .debug_str     0x00017c85     0x922e ./FreeRTOS/ports/stm32g0/port.o
+ .debug_str     0x00017c85     0x621d ./libopencm3/lib/libopencm3_stm32g0.a(gpio_common_all.o)
+ .debug_str     0x00017c85     0x623f ./libopencm3/lib/libopencm3_stm32g0.a(gpio_common_f0234.o)
+ .debug_str     0x00017c85     0x948b ./libopencm3/lib/libopencm3_stm32g0.a(rcc.o)
+ .debug_str     0x00017c85     0x86a3 ./libopencm3/lib/libopencm3_stm32g0.a(rcc_common_all.o)
+ .debug_str     0x00017c85     0x5454 ./libopencm3/lib/libopencm3_stm32g0.a(vector.o)
+ .debug_str     0x00017c85     0x4093 ./libopencm3/lib/libopencm3_stm32g0.a(assert.o)
+ .debug_str     0x00017c85     0x591e ./libopencm3/lib/libopencm3_stm32g0.a(flash_common_all.o)
+ .debug_str     0x00017c85     0x5698 ./libopencm3/lib/libopencm3_stm32g0.a(pwr.o)
+ .debug_str     0x00017c85      0x1ce /usr/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(libc_a-memset.o)
+ .debug_str     0x00017c85      0x1eb /usr/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(libc_a-memcpy-stub.o)
+ .debug_str     0x00017c85       0xb4 /usr/lib/gcc/arm-none-eabi/13.2.0/thumb/v6-m/nofp/libgcc.a(_thumb1_case_uqi.o)
+
+.comment        0x00000000       0x3c
+ .comment       0x00000000       0x3c ./src/main.o
+                                 0x1f (size before relaxing)
+ .comment       0x0000003c       0x1f ./FreeRTOS/FreeRTOS-Kernel/list.o
+ .comment       0x0000003c       0x1f ./FreeRTOS/FreeRTOS-Kernel/queue.o
+ .comment       0x0000003c       0x1f ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+ .comment       0x0000003c       0x1f ./FreeRTOS/FreeRTOS-Kernel/timers.o
+ .comment       0x0000003c       0x1f ./FreeRTOS/ports/stm32g0/heap_4.o
+ .comment       0x0000003c       0x1f ./FreeRTOS/ports/stm32g0/port.o
+ .comment       0x0000003c       0x1f ./libopencm3/lib/libopencm3_stm32g0.a(gpio_common_all.o)
+ .comment       0x0000003c       0x1f ./libopencm3/lib/libopencm3_stm32g0.a(gpio_common_f0234.o)
+ .comment       0x0000003c       0x1f ./libopencm3/lib/libopencm3_stm32g0.a(rcc.o)
+ .comment       0x0000003c       0x1f ./libopencm3/lib/libopencm3_stm32g0.a(rcc_common_all.o)
+ .comment       0x0000003c       0x1f ./libopencm3/lib/libopencm3_stm32g0.a(vector.o)
+ .comment       0x0000003c       0x1f ./libopencm3/lib/libopencm3_stm32g0.a(assert.o)
+ .comment       0x0000003c       0x1f ./libopencm3/lib/libopencm3_stm32g0.a(flash_common_all.o)
+ .comment       0x0000003c       0x1f ./libopencm3/lib/libopencm3_stm32g0.a(pwr.o)
+ .comment       0x0000003c       0x1f /usr/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(libc_a-memset.o)
+ .comment       0x0000003c       0x1f /usr/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(libc_a-memcpy-stub.o)
+
+.ARM.attributes
+                0x00000000       0x2c
+ .ARM.attributes
+                0x00000000       0x2c ./src/main.o
+ .ARM.attributes
+                0x0000002c       0x2c ./FreeRTOS/FreeRTOS-Kernel/list.o
+ .ARM.attributes
+                0x00000058       0x2c ./FreeRTOS/FreeRTOS-Kernel/queue.o
+ .ARM.attributes
+                0x00000084       0x2c ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+ .ARM.attributes
+                0x000000b0       0x2c ./FreeRTOS/FreeRTOS-Kernel/timers.o
+ .ARM.attributes
+                0x000000dc       0x2c ./FreeRTOS/ports/stm32g0/heap_4.o
+ .ARM.attributes
+                0x00000108       0x2c ./FreeRTOS/ports/stm32g0/port.o
+ .ARM.attributes
+                0x00000134       0x2c ./libopencm3/lib/libopencm3_stm32g0.a(gpio_common_all.o)
+ .ARM.attributes
+                0x00000160       0x2c ./libopencm3/lib/libopencm3_stm32g0.a(gpio_common_f0234.o)
+ .ARM.attributes
+                0x0000018c       0x2c ./libopencm3/lib/libopencm3_stm32g0.a(rcc.o)
+ .ARM.attributes
+                0x000001b8       0x2c ./libopencm3/lib/libopencm3_stm32g0.a(rcc_common_all.o)
+ .ARM.attributes
+                0x000001e4       0x2c ./libopencm3/lib/libopencm3_stm32g0.a(vector.o)
+ .ARM.attributes
+                0x00000210       0x2c ./libopencm3/lib/libopencm3_stm32g0.a(assert.o)
+ .ARM.attributes
+                0x0000023c       0x2c ./libopencm3/lib/libopencm3_stm32g0.a(flash_common_all.o)
+ .ARM.attributes
+                0x00000268       0x2c ./libopencm3/lib/libopencm3_stm32g0.a(pwr.o)
+ .ARM.attributes
+                0x00000294       0x2c /usr/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(libc_a-memset.o)
+ .ARM.attributes
+                0x000002c0       0x2c /usr/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(libc_a-memcpy-stub.o)
+ .ARM.attributes
+                0x000002ec       0x1e /usr/lib/gcc/arm-none-eabi/13.2.0/thumb/v6-m/nofp/libgcc.a(_thumb1_case_uqi.o)
+
+.debug_frame    0x00000000     0x1420
+ .debug_frame   0x00000000       0x40 ./src/main.o
+ .debug_frame   0x00000040       0x6c ./FreeRTOS/FreeRTOS-Kernel/list.o
+ .debug_frame   0x000000ac      0x37c ./FreeRTOS/FreeRTOS-Kernel/queue.o
+ .debug_frame   0x00000428      0x5dc ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+ .debug_frame   0x00000a04      0x284 ./FreeRTOS/FreeRTOS-Kernel/timers.o
+ .debug_frame   0x00000c88       0xc0 ./FreeRTOS/ports/stm32g0/heap_4.o
+ .debug_frame   0x00000d48      0x10c ./FreeRTOS/ports/stm32g0/port.o
+ .debug_frame   0x00000e54       0x80 ./libopencm3/lib/libopencm3_stm32g0.a(gpio_common_all.o)
+ .debug_frame   0x00000ed4       0x78 ./libopencm3/lib/libopencm3_stm32g0.a(gpio_common_f0234.o)
+ .debug_frame   0x00000f4c      0x23c ./libopencm3/lib/libopencm3_stm32g0.a(rcc.o)
+ .debug_frame   0x00001188       0xf0 ./libopencm3/lib/libopencm3_stm32g0.a(rcc_common_all.o)
+ .debug_frame   0x00001278       0x48 ./libopencm3/lib/libopencm3_stm32g0.a(vector.o)
+ .debug_frame   0x000012c0       0x38 ./libopencm3/lib/libopencm3_stm32g0.a(assert.o)
+ .debug_frame   0x000012f8       0x50 ./libopencm3/lib/libopencm3_stm32g0.a(flash_common_all.o)
+ .debug_frame   0x00001348       0x78 ./libopencm3/lib/libopencm3_stm32g0.a(pwr.o)
+ .debug_frame   0x000013c0       0x30 /usr/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(libc_a-memset.o)
+ .debug_frame   0x000013f0       0x30 /usr/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(libc_a-memcpy-stub.o)
+
+.debug_line_str
+                0x00000000       0x92
+ .debug_line_str
+                0x00000000       0x92 /usr/lib/gcc/arm-none-eabi/13.2.0/thumb/v6-m/nofp/libgcc.a(_thumb1_case_uqi.o)
+
+Cross Reference Table
+
+Symbol                                            File
+PendSV_Handler                                    ./FreeRTOS/ports/stm32g0/port.o
+SVC_Handler                                       ./FreeRTOS/ports/stm32g0/port.o
+SysTick_Handler                                   ./FreeRTOS/ports/stm32g0/port.o
+__fini_array_end                                  ./libopencm3/lib/libopencm3_stm32g0.a(vector.o)
+__fini_array_start                                ./libopencm3/lib/libopencm3_stm32g0.a(vector.o)
+__gnu_thumb1_case_uqi                             /usr/lib/gcc/arm-none-eabi/13.2.0/thumb/v6-m/nofp/libgcc.a(_thumb1_case_uqi.o)
+                                                  ./libopencm3/lib/libopencm3_stm32g0.a(rcc.o)
+__init_array_end                                  ./libopencm3/lib/libopencm3_stm32g0.a(vector.o)
+__init_array_start                                ./libopencm3/lib/libopencm3_stm32g0.a(vector.o)
+__preinit_array_end                               ./libopencm3/lib/libopencm3_stm32g0.a(vector.o)
+__preinit_array_start                             ./libopencm3/lib/libopencm3_stm32g0.a(vector.o)
+_data                                             ./libopencm3/lib/libopencm3_stm32g0.a(vector.o)
+_data_loadaddr                                    ./libopencm3/lib/libopencm3_stm32g0.a(vector.o)
+_ebss                                             ./libopencm3/lib/libopencm3_stm32g0.a(vector.o)
+_edata                                            ./libopencm3/lib/libopencm3_stm32g0.a(vector.o)
+_stack                                            ./libopencm3/lib/libopencm3_stm32g0.a(vector.o)
+adc_comp_isr                                      ./libopencm3/lib/libopencm3_stm32g0.a(vector.o)
+aes_rng_isr                                       ./libopencm3/lib/libopencm3_stm32g0.a(vector.o)
+blocking_handler                                  ./libopencm3/lib/libopencm3_stm32g0.a(vector.o)
+cec_isr                                           ./libopencm3/lib/libopencm3_stm32g0.a(vector.o)
+cm3_assert_failed                                 ./libopencm3/lib/libopencm3_stm32g0.a(assert.o)
+                                                  ./libopencm3/lib/libopencm3_stm32g0.a(rcc.o)
+cm3_assert_failed_verbose                         ./libopencm3/lib/libopencm3_stm32g0.a(assert.o)
+dma1_channel1_isr                                 ./libopencm3/lib/libopencm3_stm32g0.a(vector.o)
+dma1_channel2_3_isr                               ./libopencm3/lib/libopencm3_stm32g0.a(vector.o)
+dma1_channel4_7_dmamux_isr                        ./libopencm3/lib/libopencm3_stm32g0.a(vector.o)
+eTaskGetState                                     ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+exti0_1_isr                                       ./libopencm3/lib/libopencm3_stm32g0.a(vector.o)
+exti2_3_isr                                       ./libopencm3/lib/libopencm3_stm32g0.a(vector.o)
+exti4_15_isr                                      ./libopencm3/lib/libopencm3_stm32g0.a(vector.o)
+flash_isr                                         ./libopencm3/lib/libopencm3_stm32g0.a(vector.o)
+flash_prefetch_disable                            ./libopencm3/lib/libopencm3_stm32g0.a(flash_common_all.o)
+                                                  ./libopencm3/lib/libopencm3_stm32g0.a(rcc.o)
+flash_prefetch_enable                             ./libopencm3/lib/libopencm3_stm32g0.a(flash_common_all.o)
+                                                  ./libopencm3/lib/libopencm3_stm32g0.a(rcc.o)
+flash_set_ws                                      ./libopencm3/lib/libopencm3_stm32g0.a(flash_common_all.o)
+                                                  ./libopencm3/lib/libopencm3_stm32g0.a(rcc.o)
+flash_unlock_option_bytes                         ./libopencm3/lib/libopencm3_stm32g0.a(flash_common_all.o)
+gpio_clear                                        ./libopencm3/lib/libopencm3_stm32g0.a(gpio_common_all.o)
+gpio_get                                          ./libopencm3/lib/libopencm3_stm32g0.a(gpio_common_all.o)
+gpio_mode_setup                                   ./libopencm3/lib/libopencm3_stm32g0.a(gpio_common_f0234.o)
+                                                  ./src/main.o
+gpio_port_config_lock                             ./libopencm3/lib/libopencm3_stm32g0.a(gpio_common_all.o)
+gpio_port_read                                    ./libopencm3/lib/libopencm3_stm32g0.a(gpio_common_all.o)
+gpio_port_write                                   ./libopencm3/lib/libopencm3_stm32g0.a(gpio_common_all.o)
+gpio_set                                          ./libopencm3/lib/libopencm3_stm32g0.a(gpio_common_all.o)
+gpio_set_af                                       ./libopencm3/lib/libopencm3_stm32g0.a(gpio_common_f0234.o)
+gpio_set_output_options                           ./libopencm3/lib/libopencm3_stm32g0.a(gpio_common_f0234.o)
+gpio_toggle                                       ./libopencm3/lib/libopencm3_stm32g0.a(gpio_common_all.o)
+                                                  ./src/main.o
+hard_fault_handler                                ./libopencm3/lib/libopencm3_stm32g0.a(vector.o)
+i2c1_isr                                          ./libopencm3/lib/libopencm3_stm32g0.a(vector.o)
+i2c23_isr                                         ./libopencm3/lib/libopencm3_stm32g0.a(vector.o)
+main                                              ./src/main.o
+                                                  ./libopencm3/lib/libopencm3_stm32g0.a(vector.o)
+memcpy                                            /usr/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(libc_a-memcpy-stub.o)
+                                                  ./FreeRTOS/FreeRTOS-Kernel/stream_buffer.o
+                                                  ./FreeRTOS/FreeRTOS-Kernel/queue.o
+memset                                            /usr/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(libc_a-memset.o)
+                                                  ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+                                                  ./FreeRTOS/FreeRTOS-Kernel/stream_buffer.o
+nmi_handler                                       ./libopencm3/lib/libopencm3_stm32g0.a(vector.o)
+null_handler                                      ./libopencm3/lib/libopencm3_stm32g0.a(vector.o)
+pcQueueGetName                                    ./FreeRTOS/FreeRTOS-Kernel/queue.o
+pcTaskGetName                                     ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+pcTimerGetName                                    ./FreeRTOS/FreeRTOS-Kernel/timers.o
+pend_sv_handler                                   ./libopencm3/lib/libopencm3_stm32g0.a(vector.o)
+pvPortMalloc                                      ./FreeRTOS/ports/stm32g0/heap_4.o
+                                                  ./FreeRTOS/FreeRTOS-Kernel/timers.o
+                                                  ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+                                                  ./FreeRTOS/FreeRTOS-Kernel/stream_buffer.o
+                                                  ./FreeRTOS/FreeRTOS-Kernel/queue.o
+                                                  ./FreeRTOS/FreeRTOS-Kernel/event_groups.o
+pvTaskIncrementMutexHeldCount                     ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+                                                  ./FreeRTOS/FreeRTOS-Kernel/queue.o
+pvTimerGetTimerID                                 ./FreeRTOS/FreeRTOS-Kernel/timers.o
+pvd_isr                                           ./libopencm3/lib/libopencm3_stm32g0.a(vector.o)
+pwr_disable_backup_domain_write_protect           ./libopencm3/lib/libopencm3_stm32g0.a(pwr.o)
+pwr_disable_power_voltage_detect                  ./libopencm3/lib/libopencm3_stm32g0.a(pwr.o)
+pwr_enable_backup_domain_write_protect            ./libopencm3/lib/libopencm3_stm32g0.a(pwr.o)
+pwr_enable_power_voltage_detect                   ./libopencm3/lib/libopencm3_stm32g0.a(pwr.o)
+pwr_set_low_power_mode_selection                  ./libopencm3/lib/libopencm3_stm32g0.a(pwr.o)
+pwr_set_vos_scale                                 ./libopencm3/lib/libopencm3_stm32g0.a(pwr.o)
+                                                  ./libopencm3/lib/libopencm3_stm32g0.a(rcc.o)
+pxCurrentTCB                                      ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+                                                  ./FreeRTOS/ports/stm32g0/port.o
+pxPortInitialiseStack                             ./FreeRTOS/ports/stm32g0/port.o
+                                                  ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+rcc_ahb_frequency                                 ./libopencm3/lib/libopencm3_stm32g0.a(rcc.o)
+rcc_apb1_frequency                                ./libopencm3/lib/libopencm3_stm32g0.a(rcc.o)
+rcc_clock_config                                  ./libopencm3/lib/libopencm3_stm32g0.a(rcc.o)
+                                                  ./src/main.o
+rcc_clock_setup                                   ./libopencm3/lib/libopencm3_stm32g0.a(rcc.o)
+                                                  ./src/main.o
+rcc_css_disable                                   ./libopencm3/lib/libopencm3_stm32g0.a(rcc.o)
+rcc_css_enable                                    ./libopencm3/lib/libopencm3_stm32g0.a(rcc.o)
+rcc_css_int_clear                                 ./libopencm3/lib/libopencm3_stm32g0.a(rcc.o)
+rcc_css_int_flag                                  ./libopencm3/lib/libopencm3_stm32g0.a(rcc.o)
+rcc_enable_pllp                                   ./libopencm3/lib/libopencm3_stm32g0.a(rcc.o)
+rcc_enable_pllq                                   ./libopencm3/lib/libopencm3_stm32g0.a(rcc.o)
+rcc_enable_pllr                                   ./libopencm3/lib/libopencm3_stm32g0.a(rcc.o)
+rcc_get_div_from_hpre                             ./libopencm3/lib/libopencm3_stm32g0.a(rcc_common_all.o)
+                                                  ./libopencm3/lib/libopencm3_stm32g0.a(rcc.o)
+rcc_get_i2c_clk_freq                              ./libopencm3/lib/libopencm3_stm32g0.a(rcc.o)
+rcc_get_spi_clk_freq                              ./libopencm3/lib/libopencm3_stm32g0.a(rcc.o)
+rcc_get_timer_clk_freq                            ./libopencm3/lib/libopencm3_stm32g0.a(rcc.o)
+rcc_get_usart_clk_freq                            ./libopencm3/lib/libopencm3_stm32g0.a(rcc.o)
+rcc_is_osc_ready                                  ./libopencm3/lib/libopencm3_stm32g0.a(rcc.o)
+rcc_isr                                           ./libopencm3/lib/libopencm3_stm32g0.a(vector.o)
+rcc_osc_bypass_disable                            ./libopencm3/lib/libopencm3_stm32g0.a(rcc_common_all.o)
+rcc_osc_bypass_enable                             ./libopencm3/lib/libopencm3_stm32g0.a(rcc_common_all.o)
+rcc_osc_off                                       ./libopencm3/lib/libopencm3_stm32g0.a(rcc.o)
+rcc_osc_on                                        ./libopencm3/lib/libopencm3_stm32g0.a(rcc.o)
+rcc_periph_clock_disable                          ./libopencm3/lib/libopencm3_stm32g0.a(rcc_common_all.o)
+rcc_periph_clock_enable                           ./libopencm3/lib/libopencm3_stm32g0.a(rcc_common_all.o)
+                                                  ./libopencm3/lib/libopencm3_stm32g0.a(rcc.o)
+                                                  ./src/main.o
+rcc_periph_reset_hold                             ./libopencm3/lib/libopencm3_stm32g0.a(rcc_common_all.o)
+rcc_periph_reset_pulse                            ./libopencm3/lib/libopencm3_stm32g0.a(rcc_common_all.o)
+rcc_periph_reset_release                          ./libopencm3/lib/libopencm3_stm32g0.a(rcc_common_all.o)
+rcc_peripheral_clear_reset                        ./libopencm3/lib/libopencm3_stm32g0.a(rcc_common_all.o)
+rcc_peripheral_disable_clock                      ./libopencm3/lib/libopencm3_stm32g0.a(rcc_common_all.o)
+rcc_peripheral_enable_clock                       ./libopencm3/lib/libopencm3_stm32g0.a(rcc_common_all.o)
+rcc_peripheral_reset                              ./libopencm3/lib/libopencm3_stm32g0.a(rcc_common_all.o)
+rcc_set_hpre                                      ./libopencm3/lib/libopencm3_stm32g0.a(rcc.o)
+rcc_set_hsisys_div                                ./libopencm3/lib/libopencm3_stm32g0.a(rcc.o)
+rcc_set_main_pll                                  ./libopencm3/lib/libopencm3_stm32g0.a(rcc.o)
+rcc_set_mco                                       ./libopencm3/lib/libopencm3_stm32g0.a(rcc_common_all.o)
+rcc_set_mcopre                                    ./libopencm3/lib/libopencm3_stm32g0.a(rcc.o)
+rcc_set_peripheral_clk_sel                        ./libopencm3/lib/libopencm3_stm32g0.a(rcc.o)
+rcc_set_pll_source                                ./libopencm3/lib/libopencm3_stm32g0.a(rcc.o)
+rcc_set_ppre                                      ./libopencm3/lib/libopencm3_stm32g0.a(rcc.o)
+rcc_set_rng_clk_div                               ./libopencm3/lib/libopencm3_stm32g0.a(rcc.o)
+rcc_set_sysclk_source                             ./libopencm3/lib/libopencm3_stm32g0.a(rcc.o)
+rcc_system_clock_source                           ./libopencm3/lib/libopencm3_stm32g0.a(rcc.o)
+rcc_wait_for_osc_ready                            ./libopencm3/lib/libopencm3_stm32g0.a(rcc.o)
+rcc_wait_for_sysclk_status                        ./libopencm3/lib/libopencm3_stm32g0.a(rcc.o)
+reset_handler                                     ./libopencm3/lib/libopencm3_stm32g0.a(vector.o)
+rtc_isr                                           ./libopencm3/lib/libopencm3_stm32g0.a(vector.o)
+spi1_isr                                          ./libopencm3/lib/libopencm3_stm32g0.a(vector.o)
+spi23_isr                                         ./libopencm3/lib/libopencm3_stm32g0.a(vector.o)
+sv_call_handler                                   ./libopencm3/lib/libopencm3_stm32g0.a(vector.o)
+sys_tick_handler                                  ./libopencm3/lib/libopencm3_stm32g0.a(vector.o)
+tim14_isr                                         ./libopencm3/lib/libopencm3_stm32g0.a(vector.o)
+tim15_isr                                         ./libopencm3/lib/libopencm3_stm32g0.a(vector.o)
+tim16_fdcan_it0_isr                               ./libopencm3/lib/libopencm3_stm32g0.a(vector.o)
+tim17_fdcan_it1_isr                               ./libopencm3/lib/libopencm3_stm32g0.a(vector.o)
+tim1_brk_up_trg_com_isr                           ./libopencm3/lib/libopencm3_stm32g0.a(vector.o)
+tim1_cc_isr                                       ./libopencm3/lib/libopencm3_stm32g0.a(vector.o)
+tim2_isr                                          ./libopencm3/lib/libopencm3_stm32g0.a(vector.o)
+tim34_isr                                         ./libopencm3/lib/libopencm3_stm32g0.a(vector.o)
+tim6_dac_lptim1_isr                               ./libopencm3/lib/libopencm3_stm32g0.a(vector.o)
+tim7_lptim2_isr                                   ./libopencm3/lib/libopencm3_stm32g0.a(vector.o)
+ucQueueGetQueueType                               ./FreeRTOS/FreeRTOS-Kernel/queue.o
+ucStreamBufferGetStreamBufferType                 ./FreeRTOS/FreeRTOS-Kernel/stream_buffer.o
+ucpd1_ucpd2_isr                                   ./libopencm3/lib/libopencm3_stm32g0.a(vector.o)
+ulSetInterruptMaskFromISR                         ./FreeRTOS/ports/stm32g0/port.o
+                                                  ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+                                                  ./FreeRTOS/FreeRTOS-Kernel/stream_buffer.o
+                                                  ./FreeRTOS/FreeRTOS-Kernel/queue.o
+                                                  ./FreeRTOS/FreeRTOS-Kernel/event_groups.o
+ulTaskGenericNotifyTake                           ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+ulTaskGenericNotifyValueClear                     ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+usart1_isr                                        ./libopencm3/lib/libopencm3_stm32g0.a(vector.o)
+usart2_lpuart2_isr                                ./libopencm3/lib/libopencm3_stm32g0.a(vector.o)
+usart3456_lpuart1_isr                             ./libopencm3/lib/libopencm3_stm32g0.a(vector.o)
+uxEventGroupGetNumber                             ./FreeRTOS/FreeRTOS-Kernel/event_groups.o
+uxListRemove                                      ./FreeRTOS/FreeRTOS-Kernel/list.o
+                                                  ./FreeRTOS/FreeRTOS-Kernel/timers.o
+                                                  ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+uxQueueGetQueueNumber                             ./FreeRTOS/FreeRTOS-Kernel/queue.o
+uxQueueMessagesWaiting                            ./FreeRTOS/FreeRTOS-Kernel/queue.o
+uxQueueMessagesWaitingFromISR                     ./FreeRTOS/FreeRTOS-Kernel/queue.o
+uxQueueSpacesAvailable                            ./FreeRTOS/FreeRTOS-Kernel/queue.o
+uxStreamBufferGetStreamBufferNumber               ./FreeRTOS/FreeRTOS-Kernel/stream_buffer.o
+uxTaskGetNumberOfTasks                            ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+                                                  ./FreeRTOS/FreeRTOS-Kernel/queue.o
+uxTaskGetSystemState                              ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+uxTaskGetTaskNumber                               ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+uxTaskPriorityGet                                 ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+uxTaskPriorityGetFromISR                          ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+uxTaskResetEventItemValue                         ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+                                                  ./FreeRTOS/FreeRTOS-Kernel/event_groups.o
+uxTimerGetReloadMode                              ./FreeRTOS/FreeRTOS-Kernel/timers.o
+uxTimerGetTimerNumber                             ./FreeRTOS/FreeRTOS-Kernel/timers.o
+uxTopUsedPriority                                 ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+vClearInterruptMaskFromISR                        ./FreeRTOS/ports/stm32g0/port.o
+                                                  ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+                                                  ./FreeRTOS/FreeRTOS-Kernel/stream_buffer.o
+                                                  ./FreeRTOS/FreeRTOS-Kernel/queue.o
+                                                  ./FreeRTOS/FreeRTOS-Kernel/event_groups.o
+vEventGroupClearBitsCallback                      ./FreeRTOS/FreeRTOS-Kernel/event_groups.o
+vEventGroupDelete                                 ./FreeRTOS/FreeRTOS-Kernel/event_groups.o
+vEventGroupSetBitsCallback                        ./FreeRTOS/FreeRTOS-Kernel/event_groups.o
+vEventGroupSetNumber                              ./FreeRTOS/FreeRTOS-Kernel/event_groups.o
+vListInitialise                                   ./FreeRTOS/FreeRTOS-Kernel/list.o
+                                                  ./FreeRTOS/FreeRTOS-Kernel/timers.o
+                                                  ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+                                                  ./FreeRTOS/FreeRTOS-Kernel/queue.o
+                                                  ./FreeRTOS/FreeRTOS-Kernel/event_groups.o
+vListInitialiseItem                               ./FreeRTOS/FreeRTOS-Kernel/list.o
+                                                  ./FreeRTOS/FreeRTOS-Kernel/timers.o
+                                                  ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+vListInsert                                       ./FreeRTOS/FreeRTOS-Kernel/list.o
+                                                  ./FreeRTOS/FreeRTOS-Kernel/timers.o
+                                                  ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+vListInsertEnd                                    ./FreeRTOS/FreeRTOS-Kernel/list.o
+                                                  ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+vPortEndScheduler                                 ./FreeRTOS/ports/stm32g0/port.o
+                                                  ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+vPortEnterCritical                                ./FreeRTOS/ports/stm32g0/port.o
+                                                  ./FreeRTOS/ports/stm32g0/heap_4.o
+                                                  ./FreeRTOS/FreeRTOS-Kernel/timers.o
+                                                  ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+                                                  ./FreeRTOS/FreeRTOS-Kernel/stream_buffer.o
+                                                  ./FreeRTOS/FreeRTOS-Kernel/queue.o
+                                                  ./FreeRTOS/FreeRTOS-Kernel/event_groups.o
+vPortExitCritical                                 ./FreeRTOS/ports/stm32g0/port.o
+                                                  ./FreeRTOS/ports/stm32g0/heap_4.o
+                                                  ./FreeRTOS/FreeRTOS-Kernel/timers.o
+                                                  ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+                                                  ./FreeRTOS/FreeRTOS-Kernel/stream_buffer.o
+                                                  ./FreeRTOS/FreeRTOS-Kernel/queue.o
+                                                  ./FreeRTOS/FreeRTOS-Kernel/event_groups.o
+vPortFree                                         ./FreeRTOS/ports/stm32g0/heap_4.o
+                                                  ./FreeRTOS/FreeRTOS-Kernel/timers.o
+                                                  ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+                                                  ./FreeRTOS/FreeRTOS-Kernel/stream_buffer.o
+                                                  ./FreeRTOS/FreeRTOS-Kernel/queue.o
+                                                  ./FreeRTOS/FreeRTOS-Kernel/event_groups.o
+vPortGetHeapStats                                 ./FreeRTOS/ports/stm32g0/heap_4.o
+vPortInitialiseBlocks                             ./FreeRTOS/ports/stm32g0/heap_4.o
+vPortSetupTimerInterrupt                          ./FreeRTOS/ports/stm32g0/port.o
+vPortYield                                        ./FreeRTOS/ports/stm32g0/port.o
+                                                  ./FreeRTOS/FreeRTOS-Kernel/timers.o
+                                                  ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+                                                  ./FreeRTOS/FreeRTOS-Kernel/queue.o
+                                                  ./FreeRTOS/FreeRTOS-Kernel/event_groups.o
+vQueueAddToRegistry                               ./FreeRTOS/FreeRTOS-Kernel/queue.o
+                                                  ./FreeRTOS/FreeRTOS-Kernel/timers.o
+vQueueDelete                                      ./FreeRTOS/FreeRTOS-Kernel/queue.o
+vQueueSetQueueNumber                              ./FreeRTOS/FreeRTOS-Kernel/queue.o
+vQueueUnregisterQueue                             ./FreeRTOS/FreeRTOS-Kernel/queue.o
+vQueueWaitForMessageRestricted                    ./FreeRTOS/FreeRTOS-Kernel/queue.o
+                                                  ./FreeRTOS/FreeRTOS-Kernel/timers.o
+vStreamBufferDelete                               ./FreeRTOS/FreeRTOS-Kernel/stream_buffer.o
+vStreamBufferSetStreamBufferNumber                ./FreeRTOS/FreeRTOS-Kernel/stream_buffer.o
+vTaskDelay                                        ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+vTaskDelete                                       ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+vTaskEndScheduler                                 ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+vTaskGenericNotifyGiveFromISR                     ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+vTaskGetInfo                                      ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+vTaskInternalSetTimeOutState                      ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+                                                  ./FreeRTOS/FreeRTOS-Kernel/queue.o
+vTaskMissedYield                                  ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+                                                  ./FreeRTOS/FreeRTOS-Kernel/queue.o
+vTaskPlaceOnEventList                             ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+                                                  ./FreeRTOS/FreeRTOS-Kernel/queue.o
+vTaskPlaceOnEventListRestricted                   ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+                                                  ./FreeRTOS/FreeRTOS-Kernel/queue.o
+vTaskPlaceOnUnorderedEventList                    ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+                                                  ./FreeRTOS/FreeRTOS-Kernel/event_groups.o
+vTaskPriorityDisinheritAfterTimeout               ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+                                                  ./FreeRTOS/FreeRTOS-Kernel/queue.o
+vTaskPrioritySet                                  ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+vTaskRemoveFromUnorderedEventList                 ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+                                                  ./FreeRTOS/FreeRTOS-Kernel/event_groups.o
+vTaskResume                                       ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+vTaskSetTaskNumber                                ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+vTaskSetTimeOutState                              ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+                                                  ./FreeRTOS/FreeRTOS-Kernel/stream_buffer.o
+vTaskStartScheduler                               ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+                                                  ./src/main.o
+vTaskSuspend                                      ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+vTaskSuspendAll                                   ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+                                                  ./FreeRTOS/ports/stm32g0/heap_4.o
+                                                  ./FreeRTOS/FreeRTOS-Kernel/timers.o
+                                                  ./FreeRTOS/FreeRTOS-Kernel/stream_buffer.o
+                                                  ./FreeRTOS/FreeRTOS-Kernel/queue.o
+                                                  ./FreeRTOS/FreeRTOS-Kernel/event_groups.o
+vTaskSwitchContext                                ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+                                                  ./FreeRTOS/ports/stm32g0/port.o
+vTimerSetReloadMode                               ./FreeRTOS/FreeRTOS-Kernel/timers.o
+vTimerSetTimerID                                  ./FreeRTOS/FreeRTOS-Kernel/timers.o
+vTimerSetTimerNumber                              ./FreeRTOS/FreeRTOS-Kernel/timers.o
+vector_table                                      ./libopencm3/lib/libopencm3_stm32g0.a(vector.o)
+wwdg_isr                                          ./libopencm3/lib/libopencm3_stm32g0.a(vector.o)
+xEventGroupClearBits                              ./FreeRTOS/FreeRTOS-Kernel/event_groups.o
+xEventGroupCreate                                 ./FreeRTOS/FreeRTOS-Kernel/event_groups.o
+xEventGroupGetBitsFromISR                         ./FreeRTOS/FreeRTOS-Kernel/event_groups.o
+xEventGroupSetBits                                ./FreeRTOS/FreeRTOS-Kernel/event_groups.o
+xEventGroupSync                                   ./FreeRTOS/FreeRTOS-Kernel/event_groups.o
+xEventGroupWaitBits                               ./FreeRTOS/FreeRTOS-Kernel/event_groups.o
+xPortGetFreeHeapSize                              ./FreeRTOS/ports/stm32g0/heap_4.o
+xPortGetMinimumEverFreeHeapSize                   ./FreeRTOS/ports/stm32g0/heap_4.o
+xPortStartScheduler                               ./FreeRTOS/ports/stm32g0/port.o
+                                                  ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+xQueueCreateCountingSemaphore                     ./FreeRTOS/FreeRTOS-Kernel/queue.o
+xQueueCreateMutex                                 ./FreeRTOS/FreeRTOS-Kernel/queue.o
+xQueueGenericCreate                               ./FreeRTOS/FreeRTOS-Kernel/queue.o
+                                                  ./FreeRTOS/FreeRTOS-Kernel/timers.o
+xQueueGenericReset                                ./FreeRTOS/FreeRTOS-Kernel/queue.o
+xQueueGenericSend                                 ./FreeRTOS/FreeRTOS-Kernel/queue.o
+                                                  ./FreeRTOS/FreeRTOS-Kernel/timers.o
+xQueueGenericSendFromISR                          ./FreeRTOS/FreeRTOS-Kernel/queue.o
+                                                  ./FreeRTOS/FreeRTOS-Kernel/timers.o
+xQueueGiveFromISR                                 ./FreeRTOS/FreeRTOS-Kernel/queue.o
+xQueueGiveMutexRecursive                          ./FreeRTOS/FreeRTOS-Kernel/queue.o
+xQueueIsQueueEmptyFromISR                         ./FreeRTOS/FreeRTOS-Kernel/queue.o
+xQueueIsQueueFullFromISR                          ./FreeRTOS/FreeRTOS-Kernel/queue.o
+xQueuePeek                                        ./FreeRTOS/FreeRTOS-Kernel/queue.o
+xQueuePeekFromISR                                 ./FreeRTOS/FreeRTOS-Kernel/queue.o
+xQueueReceive                                     ./FreeRTOS/FreeRTOS-Kernel/queue.o
+                                                  ./FreeRTOS/FreeRTOS-Kernel/timers.o
+xQueueReceiveFromISR                              ./FreeRTOS/FreeRTOS-Kernel/queue.o
+xQueueRegistry                                    ./FreeRTOS/FreeRTOS-Kernel/queue.o
+xQueueSemaphoreTake                               ./FreeRTOS/FreeRTOS-Kernel/queue.o
+xQueueTakeMutexRecursive                          ./FreeRTOS/FreeRTOS-Kernel/queue.o
+xStreamBufferBytesAvailable                       ./FreeRTOS/FreeRTOS-Kernel/stream_buffer.o
+xStreamBufferGenericCreate                        ./FreeRTOS/FreeRTOS-Kernel/stream_buffer.o
+xStreamBufferIsEmpty                              ./FreeRTOS/FreeRTOS-Kernel/stream_buffer.o
+xStreamBufferIsFull                               ./FreeRTOS/FreeRTOS-Kernel/stream_buffer.o
+xStreamBufferNextMessageLengthBytes               ./FreeRTOS/FreeRTOS-Kernel/stream_buffer.o
+xStreamBufferReceive                              ./FreeRTOS/FreeRTOS-Kernel/stream_buffer.o
+xStreamBufferReceiveCompletedFromISR              ./FreeRTOS/FreeRTOS-Kernel/stream_buffer.o
+xStreamBufferReceiveFromISR                       ./FreeRTOS/FreeRTOS-Kernel/stream_buffer.o
+xStreamBufferReset                                ./FreeRTOS/FreeRTOS-Kernel/stream_buffer.o
+xStreamBufferSend                                 ./FreeRTOS/FreeRTOS-Kernel/stream_buffer.o
+xStreamBufferSendCompletedFromISR                 ./FreeRTOS/FreeRTOS-Kernel/stream_buffer.o
+xStreamBufferSendFromISR                          ./FreeRTOS/FreeRTOS-Kernel/stream_buffer.o
+xStreamBufferSetTriggerLevel                      ./FreeRTOS/FreeRTOS-Kernel/stream_buffer.o
+xStreamBufferSpacesAvailable                      ./FreeRTOS/FreeRTOS-Kernel/stream_buffer.o
+xTaskCatchUpTicks                                 ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+xTaskCheckForTimeOut                              ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+                                                  ./FreeRTOS/FreeRTOS-Kernel/stream_buffer.o
+                                                  ./FreeRTOS/FreeRTOS-Kernel/queue.o
+xTaskCreate                                       ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+                                                  ./FreeRTOS/FreeRTOS-Kernel/timers.o
+                                                  ./src/main.o
+xTaskDelayUntil                                   ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+xTaskGenericNotify                                ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+                                                  ./FreeRTOS/FreeRTOS-Kernel/stream_buffer.o
+xTaskGenericNotifyFromISR                         ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+                                                  ./FreeRTOS/FreeRTOS-Kernel/stream_buffer.o
+xTaskGenericNotifyStateClear                      ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+                                                  ./FreeRTOS/FreeRTOS-Kernel/stream_buffer.o
+xTaskGenericNotifyWait                            ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+                                                  ./FreeRTOS/FreeRTOS-Kernel/stream_buffer.o
+xTaskGetCurrentTaskHandle                         ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+                                                  ./FreeRTOS/FreeRTOS-Kernel/stream_buffer.o
+                                                  ./FreeRTOS/FreeRTOS-Kernel/queue.o
+xTaskGetSchedulerState                            ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+                                                  ./FreeRTOS/FreeRTOS-Kernel/timers.o
+xTaskGetTickCount                                 ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+                                                  ./FreeRTOS/FreeRTOS-Kernel/timers.o
+xTaskGetTickCountFromISR                          ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+xTaskIncrementTick                                ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+                                                  ./FreeRTOS/ports/stm32g0/port.o
+xTaskPriorityDisinherit                           ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+                                                  ./FreeRTOS/FreeRTOS-Kernel/queue.o
+xTaskPriorityInherit                              ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+                                                  ./FreeRTOS/FreeRTOS-Kernel/queue.o
+xTaskRemoveFromEventList                          ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+                                                  ./FreeRTOS/FreeRTOS-Kernel/queue.o
+xTaskResumeAll                                    ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+                                                  ./FreeRTOS/ports/stm32g0/heap_4.o
+                                                  ./FreeRTOS/FreeRTOS-Kernel/timers.o
+                                                  ./FreeRTOS/FreeRTOS-Kernel/stream_buffer.o
+                                                  ./FreeRTOS/FreeRTOS-Kernel/queue.o
+                                                  ./FreeRTOS/FreeRTOS-Kernel/event_groups.o
+xTaskResumeFromISR                                ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+xTimerCreate                                      ./FreeRTOS/FreeRTOS-Kernel/timers.o
+xTimerCreateTimerTask                             ./FreeRTOS/FreeRTOS-Kernel/timers.o
+                                                  ./FreeRTOS/FreeRTOS-Kernel/tasks.o
+xTimerGenericCommand                              ./FreeRTOS/FreeRTOS-Kernel/timers.o
+xTimerGetExpiryTime                               ./FreeRTOS/FreeRTOS-Kernel/timers.o
+xTimerGetPeriod                                   ./FreeRTOS/FreeRTOS-Kernel/timers.o
+xTimerGetReloadMode                               ./FreeRTOS/FreeRTOS-Kernel/timers.o
+xTimerGetTimerDaemonTaskHandle                    ./FreeRTOS/FreeRTOS-Kernel/timers.o
+xTimerIsTimerActive                               ./FreeRTOS/FreeRTOS-Kernel/timers.o

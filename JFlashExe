@@ -1,0 +1,7 @@
+device STM32G070RB
+si 1
+speed 4000
+loadbin target.bin 0x8000000
+r
+g
+qc

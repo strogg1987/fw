@@ -1,0 +1,18 @@
+{
+    "files.associations": {
+        "rcc.h": "c",
+        "common.h": "c",
+        "memorymap.h": "c",
+        "freertos.h": "c"
+    },
+    "cortex-debug.gdbPath": "/usr/bin/arm-none-eabi-gdb",
+    "cortex-debug.JLinkGDBServerPath": "/opt/jlink/JLink_Linux_V796f_x86_64/JLinkGDBServer",
+    "cortex-debug.stutilPath": "/usr/bin/bin/st-util",
+    "makefile.launchConfigurations": [
+        {
+            "cwd": "/mnt/pizzabot/fw",
+            "binaryPath": "/mnt/pizzabot/fw/target.elf",
+            "binaryArgs": []
+        }
+    ],
+}
